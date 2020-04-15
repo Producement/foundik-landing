@@ -2,10 +2,10 @@ require(`dotenv`).config()
 
 module.exports = {
   siteMetadata: {
-    title: `Flex Starter`,
+    title: `Foundik`,
     description: `Starter for the Flex theme.`,
     siteUrl: process.env.SITE_URL,
-    logo: `logo.png`,
+    logo: `logo2.png`,
     copyright: `© YYYY Flex. All rights reserved.`,
     headerLinks: [
       {
