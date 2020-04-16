@@ -6,8 +6,7 @@ export const Cover = () => {
   return (
     <section
       sx={{
-        bg: `muted`,
-        marginBottom: `5rem`
+        bg: `muted`
       }}
     >
       <Container>
