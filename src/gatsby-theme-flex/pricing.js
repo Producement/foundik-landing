@@ -37,7 +37,7 @@ export const Pricing = () => {
               fontWeight: 100
             }}>
               <ul>
-                <li>Estonian e-Residency</li>
+                <li><a href = "https://e-resident.gov.ee/become-an-e-resident/"> Estonian e-Residency </a></li>
                 <li>Legal Physical Address</li>
               </ul>
             </Text>
