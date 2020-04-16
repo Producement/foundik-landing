@@ -4,7 +4,7 @@ import { jsx, Grid, Heading, Text } from 'theme-ui';
 export const Offers = () => {
   return (
     <Grid
-      columns={[1, null, 3]}
+      columns={[1, 3, 3]}
       gap={10}
     >
       <div sx={{
@@ -56,7 +56,7 @@ export const Offers = () => {
           textAlign: 'center',
           marginY: 5
         }}>
-          EU COMPANY
+          Accounting
         </Heading>
         <Text
           sx={{
