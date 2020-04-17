@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Grid, Card, Heading, Text } from 'theme-ui';
+import { jsx, Grid, Card, Heading, Text, Link } from 'theme-ui';
 
 
 export const Pricing = () => {
@@ -35,7 +35,7 @@ export const Pricing = () => {
               fontWeight: 100
             }}>
               <ul>
-                <li><a href = "https://e-resident.gov.ee/become-an-e-resident/"> Estonian e-Residency </a></li>
+                <li><Link href = "https://e-resident.gov.ee/become-an-e-resident/"> Estonian e-Residency </Link></li>
                 <li>Legal Physical Address</li>
               </ul>
             </Text>
