@@ -9,8 +9,6 @@ export const Pricing = () => {
     >
       <div
         sx={{
-          //paddingX: '22rem',
-          //paddingY: '7.5rem',
           marginTop: '5rem',
           border: '5px solid',
           position: 'relative',
@@ -45,7 +43,7 @@ export const Pricing = () => {
           <div>
             <Card
               sx={{
-                bg: '#fff',
+                bg: 'background',
                 boxShadow: '6px 2px 3px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);',
                 padding: 2,
                 minHeight: '25.5rem',
@@ -68,7 +66,6 @@ export const Pricing = () => {
 
                 <Heading as="h1"
                   sx={{
-                    //fontWeight: '500',
                     fontSize: 40,
                     textAlign: 'center',
                     color: 'primary',
