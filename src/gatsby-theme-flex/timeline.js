@@ -1,5 +1,5 @@
 /** @jsx jsx*/
-import {jsx, Grid, Container} from 'theme-ui';
+import {jsx, Grid} from 'theme-ui';
 
 export const Timeline = () => {
   return (

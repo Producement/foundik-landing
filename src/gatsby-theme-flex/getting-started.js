@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import {jsx, Card, Container, Grid, Text, Heading, Message} from 'theme-ui';
+import {jsx, Container, Grid, Text } from 'theme-ui';
 
 export const GettingStarted = () => {
   return (
