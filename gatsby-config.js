@@ -12,19 +12,11 @@ module.exports = {
         title: `Home`,
         path: `/`,
       },
-      {
-        title: `About`,
-        path: `/about`,
-      },
     ],
     footerLinks: [
       {
         title: `Home`,
         path: `/`,
-      },
-      {
-        title: `About`,
-        path: `/about`,
       },
     ],
   },
