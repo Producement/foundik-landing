@@ -6,6 +6,9 @@ export const Contact = () => {
     <Grid
       columns={[1, 3, 3]}
       gap={10}
+      sx={{
+        paddingY: 5
+      }}
     >
       <div sx={{
         marginY: 'auto'
