@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Grid, Box, Text, Button, Flex, AspectImage } from 'theme-ui';
+import {jsx, Container, Grid, Box, Text, Button, Flex, AspectImage, Link} from 'theme-ui';
 import people from '../images/peopleTrans.png';
 
 export const Cover = () => {
@@ -27,8 +27,8 @@ export const Cover = () => {
               lineHeight: 1.5
             }}>
               Launch a startup from <span sx={{
-                color: 'primary'
-              }}>anywhere</span> in the World. Now.
+              color: 'primary'
+            }}>anywhere</span> in the World. Now.
             </Text>
             <Text
               sx={{
@@ -36,7 +36,8 @@ export const Cover = () => {
                 lineHeight: 1.5,
                 marginY: 5
               }}>
-              While you are focusing on your clients and on your business activities, we are taking care of your business’s taxes and accounting.
+              While you are focusing on your clients and on your business activities, we are taking care of your
+              business’s taxes and accounting.
             </Text>
 
             <Flex
@@ -46,16 +47,18 @@ export const Cover = () => {
                 justifyContent: `center`
               }}
             >
-              <Button
-                sx={{
-                  textAlign: `center`,
-                  alignContent: `center`,
-                  '@media screen and (min-width: 40em)': {
-                    paddingY: `1.5rem`,
-                    paddingX: `5rem`
-                  }
-                }}
-              >Start Your Company</Button>
+              <Link href='https://app.foundik.com/auth/sign-up'>
+                <Button
+                  sx={{
+                    textAlign: `center`,
+                    alignContent: `center`,
+                    '@media screen and (min-width: 40em)': {
+                      paddingY: `1.5rem`,
+                      paddingX: `5rem`
+                    }
+                  }}
+                >Start Your Company</Button>
+              </Link>
             </Flex>
           </Box>
           <Box>

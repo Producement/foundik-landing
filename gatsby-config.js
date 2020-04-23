@@ -6,17 +6,25 @@ module.exports = {
     description: `Foundik`,
     siteUrl: process.env.SITE_URL,
     logo: `logo2.png`,
-    copyright: `© YYYY Flex. All rights reserved.`,
+    copyright: `© YYYY Foundik. All rights reserved.`,
     headerLinks: [
       {
         title: `Home`,
         path: `/`,
+      },
+      {
+        title: `Sign in`,
+        path: `https://app.foundik.com/auth/sign-in`
       },
     ],
     footerLinks: [
       {
         title: `Home`,
         path: `/`,
+      },
+      {
+        title: `Sign in`,
+        path: `https://app.foundik.com/auth/sign-in`
       },
     ],
   },
