@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import {jsx, Container, Grid, Text, Card, Heading} from 'theme-ui';
-import {FaIdCard} from "react-icons/fa";
-import {FaBriefcase} from "react-icons/fa";
-import {FaFileInvoiceDollar} from "react-icons/fa";
-import {FaTelegramPlane} from "react-icons/fa";
-import {FaFileSignature} from "react-icons/fa";
+import {FaRegIdCard} from "react-icons/fa";
+import {RiBriefcase4Line} from "react-icons/ri";
+import {RiCurrencyLine} from "react-icons/ri";
+import {FaRegPaperPlane} from "react-icons/fa";
+import {FiPenTool} from "react-icons/fi";
 
 export const GettingStarted = () => {
   return (
@@ -47,7 +47,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaIdCard/>
+                <FaRegIdCard/>
               </Text>
             </Card>
           </div>
@@ -67,7 +67,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaTelegramPlane/>
+                <FaRegPaperPlane/>
               </Text>
             </Card>
           </div>
@@ -88,7 +88,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaFileSignature/>
+                <FiPenTool/>
               </Text>
             </Card>
           </div>
@@ -108,7 +108,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaBriefcase/>
+                <RiBriefcase4Line/>
               </Text>
             </Card>
           </div>
@@ -128,7 +128,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaFileInvoiceDollar/>
+                <RiCurrencyLine/>
               </Text>
             </Card>
           </div>
