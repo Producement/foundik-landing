@@ -61,7 +61,7 @@ export const GettingStarted = () => {
                 marginY: 1,
                 height: '2.5rem'
               }}>
-                Submit your online application.
+                Submit your online application
               </Heading>
               <Text sx={{
                 textAlign: 'center',
@@ -102,7 +102,7 @@ export const GettingStarted = () => {
                 marginY: 1,
                 height: '2.5rem'
               }}>
-                Your company is formed in Estonia.
+                Your company is formed in Estonia
               </Heading>
               <Text sx={{
                 textAlign: 'center',
