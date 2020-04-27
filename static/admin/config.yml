@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  repo: Producement/foundik-landing
   branch: master
 
 media_folder: static/img
