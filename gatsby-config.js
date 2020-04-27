@@ -28,5 +28,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [`gatsby-theme-flex`],
+  plugins: [`gatsby-theme-flex`, `gatsby-plugin-netlify-cms`],
 }

@@ -34,7 +34,9 @@
   },
   "dependencies": {
     "gatsby": "2.20.2",
+    "gatsby-plugin-netlify-cms": "^4.2.5",
     "gatsby-theme-flex": "^0.2.4",
+    "netlify-cms-app": "^2.12.11",
     "react": "16.13.1",
     "react-animations": "^1.0.0",
     "react-dom": "16.13.1",
