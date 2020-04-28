@@ -28,5 +28,15 @@ module.exports = {
       },
     ],
   },
-  plugins: [`gatsby-theme-flex`, `gatsby-plugin-netlify-cms`],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/content/blog`,
+      },
+    },
+    `gatsby-theme-flex`,
+    `gatsby-plugin-netlify-cms`
+  ]
 }
