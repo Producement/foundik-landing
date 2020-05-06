@@ -37,6 +37,15 @@ module.exports = {
       },
     },
     `gatsby-theme-flex`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: `/assets/images/`
+        }
+      }
+    }
   ]
 }
