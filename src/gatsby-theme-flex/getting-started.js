@@ -38,7 +38,7 @@ export const GettingStarted = () => {
               maxHeight: '20rem'
             }}>
               <Heading as="h4" sx={{
-                marginY: 1,
+                marginY: 5,
                 height: '2.5rem',
               }}>
                 Become an e-resident
@@ -47,7 +47,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaRegIdCard/>
+                <FaRegIdCard color='#05a'/>
               </Text>
             </Card>
           </div>
@@ -58,7 +58,7 @@ export const GettingStarted = () => {
               minWidth: '10rem',
             }}>
               <Heading as="h4" sx={{
-                marginY: 1,
+                marginY: 5,
                 height: '2.5rem'
               }}>
                 Submit your online application
@@ -67,7 +67,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FaRegPaperPlane/>
+                <FaRegPaperPlane color='#05a'/>
               </Text>
             </Card>
           </div>
@@ -79,7 +79,7 @@ export const GettingStarted = () => {
               minWidth: '10rem',
             }}>
               <Heading as="h4" sx={{
-                marginY: 1,
+                marginY: 5,
                 height: '2.5rem'
               }}>
                 Sign the company formation documents
@@ -88,7 +88,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <FiPenTool/>
+                <FiPenTool color='#05a'/>
               </Text>
             </Card>
           </div>
@@ -99,7 +99,7 @@ export const GettingStarted = () => {
               minWidth: '10rem',
             }}>
               <Heading as="h4" sx={{
-                marginY: 1,
+                marginY: 5,
                 height: '2.5rem'
               }}>
                 Your company is formed in Estonia
@@ -108,7 +108,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <RiBriefcase4Line/>
+                <RiBriefcase4Line color='#05a'/>
               </Text>
             </Card>
           </div>
@@ -119,7 +119,7 @@ export const GettingStarted = () => {
               minWidth: '10rem',
             }}>
               <Heading as="h4" sx={{
-                marginY: 1,
+                marginY: 5,
                 height: '2.5rem'
               }}>
                 Receive a tax ID number from the IRS
@@ -128,7 +128,7 @@ export const GettingStarted = () => {
                 textAlign: 'center',
                 fontSize: 70
               }}>
-                <RiCurrencyLine/>
+                <RiCurrencyLine color='#05a'/>
               </Text>
             </Card>
           </div>

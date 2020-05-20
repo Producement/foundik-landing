@@ -13,6 +13,14 @@ module.exports = {
         path: `/`,
       },
       {
+        title: `Pricing`,
+        path: `#pricing`,
+      },
+      {
+        title: `Contact`,
+        path: `#contact`,
+      },
+      {
         title: `Sign in`,
         path: `https://app.foundik.com/auth/sign-in`
       },
