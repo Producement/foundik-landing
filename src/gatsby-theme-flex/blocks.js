@@ -5,3 +5,4 @@ export { Pricing } from "./pricing";
 export { GettingStarted } from "./getting-started";
 export { Contact } from "./contact";
 export { Head } from "./head";
+export { Schemes } from './schemes';
