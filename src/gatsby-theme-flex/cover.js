@@ -10,7 +10,7 @@ export const Cover = () => {
         background: 'linear-gradient(177deg, rgba(255,255,255,1) 40%, rgba(149,230,246,1) 100%)'
       }}
     >
-      <Container >
+      <Container>
         <Grid
           gap={6}
           columns={[1, null, 2]}

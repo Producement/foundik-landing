@@ -29,14 +29,13 @@ export const Pricing = () => {
                 marginY: 1
               }}
             >
-              Only Requirements
+              Only Requirement
             </Heading>
             <Text sx={{
               fontWeight: 100
             }}>
               <ul>
                 <li><Link href = "https://e-resident.gov.ee/become-an-e-resident/"> Estonian e-Residency </Link></li>
-                <li>Legal Physical Address</li>
               </ul>
             </Text>
           </div>
