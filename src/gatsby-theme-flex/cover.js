@@ -7,7 +7,7 @@ export const Cover = () => {
     <section
       sx={{
         bg: `muted`,
-        background: 'linear-gradient(177deg, rgba(255,255,255,1) 40%, rgba(149,230,246,1) 100%)'
+        background: 'linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(149,230,246,1) 100%)'
       }}
     >
       <Container>

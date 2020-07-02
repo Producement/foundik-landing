@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import {jsx, Container, Grid, Text, Card, Heading} from 'theme-ui';
-import {FaRegIdCard} from "react-icons/fa";
-import {RiBriefcase4Line} from "react-icons/ri";
-import {RiCurrencyLine} from "react-icons/ri";
-import {FaRegPaperPlane} from "react-icons/fa";
-import {FiPenTool} from "react-icons/fi";
+import {jsx, Container, Grid, Text, Card} from 'theme-ui';
+import BecomeEre from '../images/BecomeEre.svg';
+import Company from '../images/company.svg';
+import Sign from '../images/Sign.svg';
+import Submit from '../images/Submit.svg';
+import Tax from '../images/Tax.svg';
 
 export const GettingStarted = () => {
   return (
@@ -26,9 +26,7 @@ export const GettingStarted = () => {
         </Grid>
 
         <Grid columns={[1, '5fr 5fr 5fr 5fr 5fr']} gap={5} sx={{
-          paddingY: '3rem',
-          textAlign: 'center'
-
+          paddingY: '6rem'
         }}>
           <div>
             <Card sx={{
@@ -37,18 +35,8 @@ export const GettingStarted = () => {
               minWidth: '10rem',
               maxHeight: '20rem'
             }}>
-              <Heading as="h4" sx={{
-                marginY: 5,
-                height: '2.5rem',
-              }}>
-                Become an e-resident
-              </Heading>
-              <Text sx={{
-                textAlign: 'center',
-                fontSize: 70
-              }}>
-                <FaRegIdCard color='#05a'/>
-              </Text>
+              <img src={BecomeEre} alt='' />
+              <Text sx={{ fontWeight: 100 }}>Become an E-Resident</Text>
             </Card>
           </div>
           <div>
@@ -57,18 +45,8 @@ export const GettingStarted = () => {
               minHeight: '5rem',
               minWidth: '10rem',
             }}>
-              <Heading as="h4" sx={{
-                marginY: 5,
-                height: '2.5rem'
-              }}>
-                Submit your online application
-              </Heading>
-              <Text sx={{
-                textAlign: 'center',
-                fontSize: 70
-              }}>
-                <FaRegPaperPlane color='#05a'/>
-              </Text>
+              <img src={Submit} alt='' />
+              <Text sx={{ fontWeight: 100 }}>Submit your online application</Text>
             </Card>
           </div>
           <div>
@@ -78,18 +56,8 @@ export const GettingStarted = () => {
               maxHeight: '17rem',
               minWidth: '10rem',
             }}>
-              <Heading as="h4" sx={{
-                marginY: 5,
-                height: '2.5rem'
-              }}>
-                Sign the company formation documents
-              </Heading>
-              <Text sx={{
-                textAlign: 'center',
-                fontSize: 70
-              }}>
-                <FiPenTool color='#05a'/>
-              </Text>
+              <img src={Sign} alt='' />
+              <Text sx={{ fontWeight: 100 }}>Sign the company formation documents</Text>
             </Card>
           </div>
           <div>
@@ -98,18 +66,8 @@ export const GettingStarted = () => {
               minHeight: '5rem',
               minWidth: '10rem',
             }}>
-              <Heading as="h4" sx={{
-                marginY: 5,
-                height: '2.5rem'
-              }}>
-                Your company is formed in Estonia
-              </Heading>
-              <Text sx={{
-                textAlign: 'center',
-                fontSize: 70
-              }}>
-                <RiBriefcase4Line color='#05a'/>
-              </Text>
+              <img src={Company} alt='' />
+              <Text sx={{ fontWeight: 100 }}>Your company is formed in Estonia</Text>
             </Card>
           </div>
           <div>
@@ -118,18 +76,8 @@ export const GettingStarted = () => {
               minHeight: '5rem',
               minWidth: '10rem',
             }}>
-              <Heading as="h4" sx={{
-                marginY: 5,
-                height: '2.5rem'
-              }}>
-                Receive a tax ID number from the IRS
-              </Heading>
-              <Text sx={{
-                textAlign: 'center',
-                fontSize: 70
-              }}>
-                <RiCurrencyLine color='#05a'/>
-              </Text>
+              <img src={Tax} alt='' />
+              <Text sx={{ fontWeight: 100 }}>Receive a tax ID number from the IRS</Text>
             </Card>
           </div>
         </Grid>
