@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import {jsx, Container, Grid, Text, Card} from 'theme-ui';
-import BecomeEre from '../images/BecomeEre.svg';
+import BecomeEre from '../images/BecomeERe.svg';
 import Company from '../images/company.svg';
 import Sign from '../images/Sign.svg';
 import Submit from '../images/Submit.svg';
