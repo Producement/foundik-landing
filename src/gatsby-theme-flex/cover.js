@@ -6,20 +6,17 @@ export const Cover = () => {
   return (
     <section
       sx={{
-        bg: `muted`
+        bg: `muted`,
+        background: 'linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(149,230,246,1) 100%)'
       }}
     >
       <Container>
         <Grid
           gap={6}
           columns={[1, null, 2]}
-          sx={{
-            padding: `5`
-          }}
         >
           <Box sx={{
-            paddingX: `5rem`,
-            marginY: 0
+            marginY: `8rem`,
           }}>
             <Text sx={{
               fontSize: 8,
@@ -28,7 +25,7 @@ export const Cover = () => {
             }}>
               Launch a startup from <span sx={{
               color: 'primary'
-            }}>anywhere</span> in the World. Now.
+            }}>anywhere</span> in the World.
             </Text>
             <Text
               sx={{
@@ -42,9 +39,7 @@ export const Cover = () => {
 
             <Flex
               sx={{
-                // width: [128, null, null],
-                paddingY: `5rem`,
-                justifyContent: `center`
+                paddingY: `5rem`
               }}
             >
               <Link href='https://app.foundik.com/auth/sign-up'>
@@ -54,7 +49,7 @@ export const Cover = () => {
                     alignContent: `center`,
                     '@media screen and (min-width: 40em)': {
                       paddingY: `1.5rem`,
-                      paddingX: `5rem`
+                      paddingX: `5rem`,
                     }
                   }}
                 >Start Your Company</Button>
