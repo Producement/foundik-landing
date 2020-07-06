@@ -85,7 +85,9 @@ export const Pricing = () => {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: '25px' }}>
-            <Button>Choose Plan</Button>
+            <Button sx={{ width: '100%' }}>
+              <div sx={{ margin: 'auto' }}>Choose Plan</div>
+            </Button>
           </div>
         </Text>
       </Card>
@@ -115,7 +117,9 @@ export const Pricing = () => {
             textAlign: 'center', 
             marginTop: '185px',
             }}>
-            <Button variant='secondary'>Choose Plan</Button>
+            <Button sx={{ width: '100%' }} variant="secondary">
+              <div sx={{ margin: 'auto' }}>Choose Plan</div>
+            </Button>
           </div>
         </Text>
       </Card>
