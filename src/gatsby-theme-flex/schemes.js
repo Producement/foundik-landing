@@ -4,10 +4,14 @@ import { Slider } from '@material-ui/core';
 import { PriceCard } from './priceCard';
 import './schemes.css';
 
-import { GiDirectorChair, GiFamilyHouse } from 'react-icons/gi';
-import { AiOutlineHome } from 'react-icons/ai';
-import { RiBuilding3Line } from 'react-icons/ri';
-import { FaWarehouse, FaRegBuilding } from 'react-icons/fa';
+import Starter from '../images/packages/starter.svg';
+import Boutique from '../images/packages/boutique.svg';
+import Micro from '../images/packages/micro.svg';
+import Corporate from '../images/packages/corporate.svg';
+import Elite from '../images/packages/elite.svg';
+import Venture from '../images/packages/venture.svg';
+
+import { useState } from 'react';
 
 const BaseStyles = {
   btn: {
@@ -37,59 +41,132 @@ const styles = {
   }
 }
 
-const marks = [{
-  value: 0,
-  label: '€0k',
-},
-{
-  value: 1,
-  label: '€3k',
-},
-{
-  value: 2,
-  label: '€10k',
-},
-{
-  value: 3,
-  label: '€20k',
-},
-{
-  value: 4,
-  label: '€100k',
-},
-{
-  value: 5,
-  label: '€150k+',
-},
+const marks = [
+  {
+    value: 0,
+    label: '€0k',
+  },
+  {
+    value: 1,
+    label: '€3k',
+  },
+  {
+    value: 2,
+    label: '€10k',
+  },
+  {
+    value: 3,
+    label: '€20k',
+  },
+  {
+    value: 4,
+    label: '€100k',
+  },
+  {
+    value: 5,
+    label: '€150k',
+  },
+  {
+    value: 6,
+    label: '€150k+',
+  },
 ];
 
+const priceCards = [
+  {
+    key: 0,
+    value:
+      <PriceCard
+        icon={Starter}
+        header='Starter'
+        price='€129/m'
+        footerText='Monthly expenses below €3k'
+      />
+  },
+  {
+    key: 1,
+    value:
+      <PriceCard
+        icon={Micro}
+        header='Micro'
+        price='$159/m'
+        footerText='Monthly expenses more than €3k to €10k'
+      />
+  },
+  {
+    key: 2,
+    value:
+      <PriceCard
+        icon={Boutique}
+        header='Boutique'
+        price='$199/m'
+        footerText='Monthly expenses more than €10k to €20k'
+        disabled={true}
+      />
+  },
+  {
+    key: 3,
+    value:
+      <PriceCard
+        icon={Venture}
+        header='Venture'
+        price='1% of expenses/m'
+        footerText='Monthly expenses more than €20k to €100k'
+      />
+  },
+  {
+    key: 4,
+    value:
+      <PriceCard
+        icon={Corporate}
+        header='Corporate'
+        price='0,8% of expenses/m'
+        footerText='Monthly expenses more than €100k to €150k'
+      />
+  },
+  {
+    key: 5,
+    value:
+      <PriceCard
+        icon={Elite}
+        header='Elite'
+        price='0,6% of expenses/m'
+        footerText='Monthly expenses more than €150k'
+      />
+  }
+]
+
 export const Schemes = () => {
+
+  const [selectedPriceCards, setSelectedPriceCards] = useState(priceCards.slice(0, 3));
+
+  const handleSliderChange = (event, value) => {
+    setSelectedPriceCards(priceCards.filter(card => card.key < value));
+  };
+
   return (
     <section
       id="pricing"
       sx={{ textAlign: 'center' }}
     >
       <div sx={{ maxWidth: 'container', margin: 'auto' }}>
-        <Heading sx={{ fontSize: '48px', marginY: '50px' }}>Pricing</Heading>
-        <div>
-          {/* <Grid columns={[1, null, 6]} gap={0} sx={{ marginY: '20px' }}>
-            <Button sx={styles.btnLeftSharp}>€0k - €3k</Button>
-            <Button sx={styles.btnSharp}>€3k - €10k</Button>
-            <Button sx={styles.btnSharp}>€10k - €20k</Button>
-            <Button sx={styles.btnSharp}>€20k - €100k</Button>
-            <Button sx={styles.btnSharp}>€100k - €150k</Button>
-            <Button sx={styles.btnRightSharp}>€150k+</Button>
-          </Grid> */}
+        <div sx={{ bg: 'primary', padding: '10px', }}>
+          <Heading sx={{ fontSize: '48px', marginY: '50px' }}>Pricing</Heading>
           <div sx={{ margin: '30px 10px' }}>
             <Slider
-              defaultValue={2}
-              max={5}
+              defaultValue={3}
+              max={6}
               marks={marks}
+              onChange={handleSliderChange}
+              style={{
+                //slider
+              }}
             ></Slider>
           </div>
-
+        </div>
           <Grid columns={[1, null, 3]} gap={10}>
-            <PriceCard
+            {selectedPriceCards && selectedPriceCards.map(card => <div key={card.key}>{card.value}</div>)}
+            {/* <PriceCard
               icon={<GiDirectorChair size={50} sx={styles.cardIcon} />}
               header='Starter'
               price='€129/m'
@@ -130,10 +207,9 @@ export const Schemes = () => {
               header='Elite'
               price='0,6% of expenses/m'
               footerText='Monthly expenses more than €150k'
-            />
+            /> */}
           </Grid>
         </div>
-      </div>
     </section>
   );
 };

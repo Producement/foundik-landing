@@ -5,14 +5,14 @@ import { useState } from 'react';
 
 
 const BaseStyles = {
-  card: { 
-    textAlign: 'center', 
-    //backgroundColor: 'default', 
-    boxShadow: '0 0 8px rgba(0, 0, 0, 0.125)' 
+  card: {
+    textAlign: 'center',
+    boxShadow: '0 0 8px rgba(0, 0, 0, 0.125)',
+    padding: '15px'
   },
   cardChildren: {
     marginY: '10px'
-  } 
+  }
 }
 
 const styles = {
@@ -47,22 +47,24 @@ export const PriceCard = ({
   footerText
 }) => {
   const [bgColor, setBgColor] = useState('#fff');
-  
+
   useEffect(() => {
-    if(disabled)
+    if (disabled)
       setBgColor('darkgrey');
   }, [disabled]);
 
   return (
-    <Card sx={styles.card} style={{backgroundColor: {bgColor}}}>
-      {icon}
+    <Card sx={styles.card} style={{ backgroundColor: { bgColor } }}>
+      <img src={icon} alt='' />
 
       <Heading as='h5' sx={styles.cardHeader}>{header}</Heading>
 
       <Text sx={styles.cardPrice}>{price}</Text>
 
       <div sx={styles.cardButton}>
-        <Button sx={{ fontSize: 'small' }} disabled={disabled}>Proceed</Button>
+        <Button sx={{ fontSize: 'small', width: '60%' }} disabled={disabled}>
+          <div sx={{ margin: 'auto' }}>Proceed</div>
+        </Button>
       </div>
 
       <Text sx={styles.cardFooter}>
