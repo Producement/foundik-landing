@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx, Grid, Heading } from 'theme-ui';
-import { Slider } from '@material-ui/core';
+import { Slider, withStyles } from '@material-ui/core';
 import { PriceCard } from './priceCard';
-import './schemes.css';
+import { css } from '@emotion/core';
 
 import Starter from '../images/packages/starter.svg';
 import Boutique from '../images/packages/boutique.svg';
@@ -134,39 +134,90 @@ const priceCards = [
         footerText='Monthly expenses more than €150k'
       />
   }
-]
+];
+
+const PrettoSlider = withStyles({
+  root: {
+    color: '#07c',
+    height: 5
+  },
+  thumb: {
+    backgroundColor: '#fff',
+    height: 15,
+    width: 15,
+    border: '2px solid currentColor',
+    '&:focus, &:hover, &$active': {
+      boxShadow: 'inherit',
+    },
+  },
+  active: {},
+  valueLabel: {
+    left: 'calc(-50% + 4px)',
+  },
+  mark: {
+    color: '#fff'
+  },
+  markLabel: {
+    color: '#fff'
+  },
+  track: {
+    borderRadius: 4,
+    height: 5
+  },
+  rail: {
+    borderRadius: 4,
+    color: '#ffffff',
+    height: 5
+  },
+})(Slider);
 
 export const Schemes = () => {
 
-  const [selectedPriceCards, setSelectedPriceCards] = useState(priceCards.slice(0, 3));
+  const [selectedPriceCards, setSelectedPriceCards] = useState(priceCards.slice(0, 1));
 
   const handleSliderChange = (event, value) => {
-    setSelectedPriceCards(priceCards.filter(card => card.key < value));
+    setSelectedPriceCards(priceCards.filter(card => card.key >= value[0] && card.key < value[1]));
   };
 
   return (
     <section
       id="pricing"
-      sx={{ textAlign: 'center' }}
+      sx={{
+        textAlign: 'center'
+      }}
     >
-      <div sx={{ maxWidth: 'container', margin: 'auto' }}>
-        <div sx={{ bg: 'primary', padding: '10px', }}>
-          <Heading sx={{ fontSize: '48px', marginY: '50px' }}>Pricing</Heading>
-          <div sx={{ margin: '30px 10px' }}>
-            <Slider
-              defaultValue={3}
-              max={6}
-              marks={marks}
-              onChange={handleSliderChange}
-              style={{
-                //slider
-              }}
-            ></Slider>
-          </div>
+      <div
+        sx={{
+          bg: '#316099',
+          paddingY: '15px',
+          marginBottom: '50px'
+        }}
+        css={css`
+          &:after {
+            content: "";
+            position: absolute;
+            margin: 0 -95px; 
+            border-top: 35px solid blue;
+            border-top-color: #316099; 
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent; 
+          }
+        `}
+      >
+        <Heading sx={{ fontSize: '48px', marginY: '50px', color: '#fff' }}>Pricing</Heading>
+        <div sx={{ margin: 'auto', maxWidth: 'container' }}>
+          <PrettoSlider
+            defaultValue={[0, 1]}
+            max={6}
+            marks={marks}
+            onChange={handleSliderChange}
+          ></PrettoSlider>
         </div>
-          <Grid columns={[1, null, 3]} gap={10}>
-            {selectedPriceCards && selectedPriceCards.map(card => <div key={card.key}>{card.value}</div>)}
-            {/* <PriceCard
+      </div>
+      <div sx={{ maxWidth: 'container', margin: 'auto' }}>
+        <Grid columns={[1, null, 3]} gap={10}>
+          {selectedPriceCards && selectedPriceCards.map(card => <div key={card.key}>{card.value}</div>)}
+          {/* <PriceCard
               icon={<GiDirectorChair size={50} sx={styles.cardIcon} />}
               header='Starter'
               price='€129/m'
@@ -208,8 +259,8 @@ export const Schemes = () => {
               price='0,6% of expenses/m'
               footerText='Monthly expenses more than €150k'
             /> */}
-          </Grid>
-        </div>
+        </Grid>
+      </div>
     </section>
   );
 };

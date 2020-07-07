@@ -34,7 +34,8 @@ const styles = {
   },
   cardFooter: {
     ...BaseStyles.cardChildren,
-    fontSize: 'small'
+    fontSize: 'small',
+    color: '#BDBDBD'
   }
 
 }

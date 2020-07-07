@@ -35,7 +35,7 @@ const styles = {
 
 export const Pricing = () => {
   return (
-    <Grid columns={[1, null, 3]} gap={10} sx={{marginTop: '40px'}}>
+    <Grid columns={[1, null, 3]} gap={10} sx={{ marginTop: '40px' }}>
       <Grid sx={{ textAlign: 'center', margin: 'auto' }}>
         <Heading as='h5'>Only Requirement</Heading>
         <Text>
@@ -43,8 +43,8 @@ export const Pricing = () => {
         </Text>
       </Grid>
       <Card sx={styles.cardPrimary}>
-        <Heading as='h5' sx={{fontWeight: 300}}>One Time Cost</Heading>
-        <Heading as='h3'sx={{ marginY: '5px' }}>&euro;260</Heading>
+        <Heading as='h5' sx={{ fontWeight: 300 }}>One Time Cost</Heading>
+        <Heading as='h3' sx={{ marginY: '5px' }}>&euro;260</Heading>
         <Text sx={{ fontSize: 'small', color: '#BDBDBD' }}>One Time Billing</Text>
 
         <Text sx={{
@@ -92,7 +92,7 @@ export const Pricing = () => {
         </Text>
       </Card>
       <Card sx={styles.cardSecondary}>
-        <Heading as='h5' sx={{fontWeight: 300}}>Monthly Subscribtion</Heading>
+        <Heading as='h5' sx={{ fontWeight: 300 }}>Monthly Subscribtion</Heading>
         <Heading as='h3' sx={{ marginY: '5px' }}>Starting from &euro;3 only</Heading>
         <Text sx={{ fontSize: 'small', color: '#BDBDBD' }}>Cancel anytime!</Text>
 
@@ -113,13 +113,15 @@ export const Pricing = () => {
             <span>24x7 supprt</span>
           </div>
           &nbsp;
-          <div style={{ 
-            textAlign: 'center', 
+          <div style={{
+            textAlign: 'center',
             marginTop: '185px',
-            }}>
-            <Button sx={{ width: '100%' }} variant="secondary">
-              <div sx={{ margin: 'auto' }}>Choose Plan</div>
-            </Button>
+          }}>
+            <Link to='/pricing'>
+              <Button sx={{ width: '100%' }} variant="secondary">
+                <div sx={{ margin: 'auto' }}>Know More</div>
+              </Button>
+            </Link>
           </div>
         </Text>
       </Card>
