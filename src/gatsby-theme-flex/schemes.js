@@ -62,7 +62,7 @@ const priceCards = [
       <PriceCard
         icon={Micro}
         header='Micro'
-        price='$159/m'
+        price='€159/m'
         footerText='Monthly expenses more than €3k to €10k'
       />
   },
@@ -72,7 +72,7 @@ const priceCards = [
       <PriceCard
         icon={Boutique}
         header='Boutique'
-        price='$199/m'
+        price='€199/m'
         footerText='Monthly expenses more than €10k to €20k'
         disabled={true}
       />
