@@ -1,5 +1,6 @@
 /** @jsx jsx */
-import { jsx, Grid, Card, Heading, Text, Link, Button } from 'theme-ui';
+import { jsx, Grid, Card, Heading, Text, Button } from 'theme-ui';
+import { Link } from 'gatsby';
 import check from '../images/check.svg';
 
 const BaseStyles = {
@@ -117,7 +118,9 @@ export const Pricing = () => {
             textAlign: 'center',
             marginTop: '185px',
           }}>
-            <Link to='/pricing'>
+            <Link to='/pricing' style={{
+              textDecoration: 'none'
+            }}>
               <Button sx={{ width: '100%' }} variant="secondary">
                 <div sx={{ margin: 'auto' }}>Know More</div>
               </Button>

@@ -16,7 +16,8 @@ export const Cover = () => {
           columns={[1, null, 2]}
         >
           <Box sx={{
-            marginY: `8rem`,
+            marginTop: `8rem`,
+            marginBottom: `5rem`
           }}>
             <Text sx={{
               fontSize: 8,
