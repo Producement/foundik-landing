@@ -54,6 +54,15 @@ module.exports = {
           include: `/assets/images/`
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-mixpanel`,
+      options: {
+        apiToken: '4b0bc471106756914eb5b2dd927d272d',
+        pageViews: {
+          '/': 'Site visit',
+        },
+      }
     }
   ]
 }
