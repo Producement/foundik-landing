@@ -1,6 +1,6 @@
 /** @jsx jsx */
-import { jsx, Grid, Heading } from 'theme-ui';
-import { Slider, withStyles } from '@material-ui/core';
+import { jsx, Heading } from 'theme-ui';
+import { makeStyles, withStyles, createStyles, Paper, Tabs, Tab } from '@material-ui/core';
 import { PriceCard } from './priceCard';
 import { css } from '@emotion/core';
 
@@ -17,32 +17,28 @@ import { useState } from 'react';
 const marks = [
   {
     value: 0,
-    label: '€0k',
+    label: '€0k - €3k',
   },
   {
     value: 1,
-    label: '€3k',
+    label: '€3k - €10k',
   },
   {
     value: 2,
-    label: '€10k',
+    label: '€10k - €20k',
   },
   {
     value: 3,
-    label: '€20k',
+    label: '€20k - €100k',
   },
   {
     value: 4,
-    label: '€100k',
+    label: '€100k - €150k',
   },
   {
     value: 5,
-    label: '€150k',
-  },
-  {
-    value: 6,
     label: '€150k+',
-  },
+  }
 ];
 
 const priceCards = [
@@ -109,47 +105,60 @@ const priceCards = [
   }
 ];
 
-const PrettoSlider = withStyles({
+const useStyles = makeStyles({
   root: {
-    color: '#07c',
-    height: 5
+    backgroundColor: '#EFF6FC',
   },
-  thumb: {
-    backgroundColor: '#fff',
-    height: 15,
-    width: 15,
-    border: '2px solid currentColor',
-    '&:focus, &:hover, &$active': {
-      boxShadow: 'inherit',
+});
+
+const CustomizedTabs = withStyles({
+  root: {
+    borderBottom: 'none',
+  },
+  indicator: {
+    backgroundColor: '#1890ff',
+  },
+})(Tabs);
+
+const CustomizedTab = withStyles((theme) =>
+  createStyles({
+    root: {
+      textTransform: 'none',
+      minWidth: 72,
+      marginRight: theme.spacing(4),
+      color: '#333333',
+      fontFamily: [
+        'system-ui',
+        'sans-serif',
+      ].join(','),
+      '&:hover': {
+        color: '#40a9ff',
+        opacity: 1,
+      },
+      '&$selected': {
+        backgroundColor: '#FFFFFF',
+        borderRadius: '4px',
+        color: '#1894EC',
+        fontWeight: theme.typography.fontWeightMedium,
+      },
+      '&:focus': {
+        color: '#40a9ff',
+      },
     },
-  },
-  active: {},
-  valueLabel: {
-    left: 'calc(-50% + 4px)',
-  },
-  mark: {
-    color: '#fff'
-  },
-  markLabel: {
-    color: '#fff'
-  },
-  track: {
-    borderRadius: 4,
-    height: 5
-  },
-  rail: {
-    borderRadius: 4,
-    color: '#ffffff',
-    height: 5
-  },
-})(Slider);
+    selected: {
+      borderBottomColor: 'transparent'
+    },
+  }),
+)((props) => <Tab disableRipple {...props} />);
+
 
 export const Schemes = () => {
 
-  const [selectedPriceCards, setSelectedPriceCards] = useState(priceCards.slice(0, 1));
+  const classes = useStyles();
+  const [selectedCard, setSelectedCard] = useState(0);
 
-  const handleSliderChange = (event, value) => {
-    setSelectedPriceCards(priceCards.filter(card => card.key >= value[0] && card.key < value[1]));
+  const handleChange = (event, value) => {
+    setSelectedCard(value);
   };
 
   return (
@@ -178,24 +187,30 @@ export const Schemes = () => {
         `}
       >
         <Heading sx={{ fontSize: '48px', marginY: '50px', color: '#fff' }}>Pricing</Heading>
-        <div sx={{ margin: 'auto', maxWidth: 'container' }}>
-          <PrettoSlider
-            defaultValue={[0, 1]}
-            max={6}
-            marks={marks}
-            onChange={handleSliderChange}
-          ></PrettoSlider>
-        </div>
+        <Paper
+          className={classes.root}
+          sx={{
+            width: ['100%', '52%'],
+            maxWidth: 'container',
+            margin: 'auto',
+            borderRadius: '8px',
+            paddingY: '5px'
+          }}>
+          <CustomizedTabs
+            value={selectedCard}
+            onChange={handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            centered
+          >
+            {
+              marks && marks.map(item => <CustomizedTab key={item.value} label={item.label} />)
+            }
+          </CustomizedTabs>
+        </Paper>
       </div>
       <div sx={{ maxWidth: 'container', margin: 'auto' }}>
-        <Grid columns={[1, null, 3]} gap={10}>
-          {
-            selectedPriceCards && selectedPriceCards.map(card =>
-              <div key={card.key}>{card.value}</div>
-              )
-          }
-
-        </Grid>
+        <div sx={{width: '310px', height: '310px', margin: 'auto'}}>{priceCards[selectedCard].value}</div>
       </div>
     </section>
   );

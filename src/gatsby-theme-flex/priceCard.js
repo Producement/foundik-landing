@@ -3,6 +3,7 @@ import { jsx, Card, Heading, Text, Button } from 'theme-ui';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
+import { APP_URL } from '../constants';
 
 const BaseStyles = {
   card: {
@@ -48,11 +49,15 @@ export const PriceCard = ({
   footerText
 }) => {
   const [bgColor, setBgColor] = useState('#fff');
-
   useEffect(() => {
     if (disabled)
       setBgColor('darkgrey');
   }, [disabled]);
+
+  const redirectToApp = () => {
+    if(header)
+      window.location.href = `${APP_URL}?plans=${header}`
+  }
 
   return (
     <Card sx={styles.card} style={{ backgroundColor: { bgColor } }}>
@@ -63,7 +68,7 @@ export const PriceCard = ({
       <Text sx={styles.cardPrice}>{price}</Text>
 
       <div sx={styles.cardButton}>
-        <Button sx={{ fontSize: 'small', width: '60%' }} disabled={disabled}>
+        <Button sx={{ fontSize: 'small', width: '60%' }} disabled={disabled} onClick={redirectToApp}>
           <div sx={{ margin: 'auto' }}>Proceed</div>
         </Button>
       </div>
