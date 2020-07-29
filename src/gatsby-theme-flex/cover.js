@@ -1,6 +1,8 @@
 /** @jsx jsx */
-import {jsx, Container, Grid, Box, Text, Button, Flex, AspectImage, Link} from 'theme-ui';
+import {jsx, Container, Grid, Box, Text, Button, Flex, AspectImage} from 'theme-ui';
 import people from '../images/peopleTrans.png';
+
+import { css } from '@emotion/core';
 
 export const Cover = () => {
   return (
@@ -43,7 +45,14 @@ export const Cover = () => {
                 paddingY: `5rem`
               }}
             >
-              <Link href='https://app.foundik.com/auth/sign-up'>
+              <a href='https://app.foundik.com/auth/sign-up'
+                css={css`
+                text-decoration: none;
+                &:hover {
+                  text-decoration: none !important; 
+                }
+              `}
+              >
                 <Button
                   sx={{
                     textAlign: `center`,
@@ -54,7 +63,7 @@ export const Cover = () => {
                     }
                   }}
                 >Start Your Company</Button>
-              </Link>
+              </a>
             </Flex>
           </Box>
           <Box>

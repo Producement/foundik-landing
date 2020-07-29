@@ -3,6 +3,10 @@ import { jsx, Grid, Card, Heading, Text, Button } from 'theme-ui';
 import { Link } from 'gatsby';
 import check from '../images/check.svg';
 
+import { css } from '@emotion/core';
+
+import { ERESIDENCY_URL } from '../constants';
+
 const BaseStyles = {
   card: {
     backgroundColor: 'default',
@@ -35,13 +39,24 @@ const styles = {
 }
 
 export const Pricing = () => {
+
   return (
     <Grid columns={[1, null, 3]} gap={10} sx={{ marginTop: '40px' }}>
       <Grid sx={{ textAlign: 'center', margin: 'auto' }}>
         <Heading as='h5'>Only Requirement</Heading>
-        <Text>
-          <Link href="https://e-resident.gov.ee/become-an-e-resident/"> Estonian e-Residency </Link>
-        </Text>
+        <a href={ERESIDENCY_URL} target='__blank'
+          css={css`
+          color: #07c;
+          text-decoration: none;
+          &:hover {
+            text-decoration: none !important; 
+          }
+        `}
+        >
+          <Text>
+            Estonian e-Residency
+          </Text>
+        </a>
       </Grid>
       <Card sx={styles.cardPrimary}>
         <Heading as='h5' sx={{ fontWeight: 300 }}>One Time Cost</Heading>
@@ -86,9 +101,13 @@ export const Pricing = () => {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: '25px' }}>
-            <Button sx={{ width: '100%' }}>
-              <div sx={{ margin: 'auto' }}>Choose Plan</div>
-            </Button>
+            <Link to='/pricing' style={{
+              textDecoration: 'none'
+            }}>
+              <Button sx={{ width: '100%' }}>
+                <div sx={{ margin: 'auto' }}>Choose Plan</div>
+              </Button>
+            </Link>
           </div>
         </Text>
       </Card>
