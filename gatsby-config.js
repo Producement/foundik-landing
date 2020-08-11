@@ -27,11 +27,19 @@ module.exports = {
     ],
     footerLinks: [
       {
-        title: `Home`,
-        path: `/`,
+        title: `Terms of Services`,
+        path: `/terms`,
       },
       {
-        title: `Sign in`,
+        title: `Privacy Policy`,
+        path: `/privacy`
+      },
+      {
+        title: `Home`,
+        path: `/`
+      },
+      {
+        title: `Sign In`,
         path: `https://app.foundik.com/auth/sign-in`
       },
     ],

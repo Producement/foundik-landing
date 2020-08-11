@@ -6,3 +6,5 @@ export { GettingStarted } from "./getting-started";
 export { Contact } from "./contact";
 export { Head } from "./head";
 export { Schemes } from './schemes';
+export { Terms } from './terms';
+export { Privacy } from './privacy';
