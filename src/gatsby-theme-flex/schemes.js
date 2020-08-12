@@ -190,7 +190,7 @@ export const Schemes = () => {
         <Paper
           className={classes.root}
           sx={{
-            width: ['100%', '52%'],
+            width: ['100%', '100%'],
             maxWidth: 'container',
             margin: 'auto',
             borderRadius: '8px',
