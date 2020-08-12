@@ -20,7 +20,7 @@ export const Privacy = () => {
           }
         `}
       >
-        <p>At Foundik OÜ, accessible from Foundik OÜ.com, one of our main priorities is the privacy of our visitors. 
+        <p>At Foundik OÜ, one of our main priorities is the privacy of our visitors. 
           This Privacy Policy document contains types of information that is collected and recorded by Foundik OÜ and 
           how we use it.</p>
 
