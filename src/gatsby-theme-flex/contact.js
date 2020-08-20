@@ -29,13 +29,13 @@ export const Contact = () => {
             <Text sx={{ padding: 5 }}>Address</Text>
           </div>
           <div sx={{ margin: 'auto'}}>
-            <Text sx={{
+            <a href='https://goo.gl/maps/FAPcm7BBhY9MNrB1A' target='_blank' rel='noopener noreferrer' sx={{
               fontWeight: 100
             }}
             >
               <p>Pärnu mnt 20</p>
               <p>10141 Tallinn</p>
-            </Text>
+            </a>
           </div>
         </Grid>
       </div>
@@ -90,7 +90,7 @@ export const Contact = () => {
               fontWeight: 100
             }}
             >
-              <p>hello@foundik.com</p>
+              <a rel='noopener noreferrer' href='mailto:hello@foundik.com' target='_blank'>hello@foundik.com</a>
             </Text>
           </div>
         </Grid>
