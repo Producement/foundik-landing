@@ -112,7 +112,7 @@ export const Pricing = () => {
         </Text>
       </Card>
       <Card sx={styles.cardSecondary}>
-        <Heading as='h5' sx={{ fontWeight: 300 }}>Monthly Subscribtion</Heading>
+        <Heading as='h5' sx={{ fontWeight: 300 }}>Monthly Subscription</Heading>
         <Heading as='h3' sx={{ marginY: '5px' }}>Starting from &euro;129 only</Heading>
         <Text sx={{ fontSize: 'small', color: '#BDBDBD' }}>Cancel anytime!</Text>
 

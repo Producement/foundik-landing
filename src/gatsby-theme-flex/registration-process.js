@@ -6,7 +6,7 @@ import Sign from '../images/Sign.svg';
 import Submit from '../images/Submit.svg';
 import Tax from '../images/Tax.svg';
 
-export const GettingStarted = () => {
+export const RegistrationProcess = () => {
   return (
 
     <section>
@@ -77,7 +77,7 @@ export const GettingStarted = () => {
               minWidth: '10rem',
             }}>
               <img src={Tax} alt='' />
-              <Text sx={{ fontWeight: 100 }}>Receive a tax ID number from the IRS</Text>
+              <Text sx={{ fontWeight: 100 }}>Receive a tax ID number</Text>
             </Card>
           </div>
         </Grid>

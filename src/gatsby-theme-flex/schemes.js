@@ -13,7 +13,6 @@ import Venture from '../images/packages/venture.svg';
 
 import { useState } from 'react';
 
-
 const marks = [
   {
     value: 0,
@@ -49,7 +48,7 @@ const priceCards = [
         icon={Starter}
         header='Starter'
         price='€129/m'
-        footerText='Monthly expenses below €3k'
+        footerText='Monthly revenue below €3k'
       />
   },
   {
@@ -59,7 +58,7 @@ const priceCards = [
         icon={Micro}
         header='Micro'
         price='€159/m'
-        footerText='Monthly expenses more than €3k to €10k'
+        footerText='Monthly revenue between €3k and €10k'
       />
   },
   {
@@ -69,7 +68,7 @@ const priceCards = [
         icon={Boutique}
         header='Boutique'
         price='€199/m'
-        footerText='Monthly expenses more than €10k to €20k'
+        footerText='Monthly revenue between €10k and €20k'
         disabled={true}
       />
   },
@@ -79,8 +78,8 @@ const priceCards = [
       <PriceCard
         icon={Venture}
         header='Venture'
-        price='1% of expenses/m'
-        footerText='Monthly expenses more than €20k to €100k'
+        price='1% of monthly revenue'
+        footerText='Monthly revenue between €20k and €100k'
       />
   },
   {
@@ -89,8 +88,8 @@ const priceCards = [
       <PriceCard
         icon={Corporate}
         header='Corporate'
-        price='0,8% of expenses/m'
-        footerText='Monthly expenses more than €100k to €150k'
+        price='0,8% of monthly revenue'
+        footerText='Monthly revenue between €100k and €150k'
       />
   },
   {
@@ -99,8 +98,8 @@ const priceCards = [
       <PriceCard
         icon={Elite}
         header='Elite'
-        price='0,6% of expenses/m'
-        footerText='Monthly expenses more than €150k'
+        price='0,6% of monthly revenue'
+        footerText='Monthly revenue more than €150k'
       />
   }
 ];
@@ -186,7 +185,9 @@ export const Schemes = () => {
           }
         `}
       >
-        <Heading sx={{ fontSize: '48px', marginY: '50px', color: '#fff' }}>Pricing</Heading>
+        <Heading sx={{ fontSize: '48px', marginY: '40px', color: '#fff' }}>Pricing</Heading>
+        <Heading sx={{ fontSize: '18px', marginY: '20px', color: '#fff'}}>Pricing is based on your company’s
+          monthly revenue. Choose a range to get pricing details.</Heading>
         <Paper
           className={classes.root}
           sx={{

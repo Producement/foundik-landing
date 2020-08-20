@@ -36,8 +36,8 @@ export const Cover = () => {
                 lineHeight: 1.5,
                 marginY: 5
               }}>
-              While you are focusing on your clients and on your business activities, we are taking care of your
-              business’s taxes and accounting.
+              Let us handle all your company's taxes and accounting while you focus on
+              your clients and grow your business activity.
             </Text>
 
             <Flex
@@ -56,13 +56,15 @@ export const Cover = () => {
                 <Button
                   sx={{
                     textAlign: `center`,
+                    fontWeight: `bold`,
                     alignContent: `center`,
                     '@media screen and (min-width: 40em)': {
                       paddingY: `1.5rem`,
                       paddingX: `5rem`,
                     }
                   }}
-                >Start Your Company</Button>
+                >START YOUR COMPANY &#10147;
+                </Button>
               </a>
             </Flex>
           </Box>

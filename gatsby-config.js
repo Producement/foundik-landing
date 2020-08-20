@@ -17,6 +17,10 @@ module.exports = {
         path: `#pricing`,
       },
       {
+        title:`Registration process`,
+        path: `#registration-process`,
+      },
+      {
         title: `Contact`,
         path: `#contact`,
       },
@@ -55,6 +59,7 @@ module.exports = {
     `gatsby-theme-flex`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-remark-link-unfurl`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -73,4 +78,4 @@ module.exports = {
       }
     }
   ]
-}
+};
