@@ -14,7 +14,14 @@ export default ({ logo, siteName, headerLinks }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header>
+    <header sx={{
+      overflow: 'hidden',
+      backgroundColor: '#FFFFFF',
+      position: 'fixed',
+      top: '0',
+      width: '100%',
+      zIndex: 10,
+    }}>
       <Container>
         <Flex
           sx={{
