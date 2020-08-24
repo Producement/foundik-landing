@@ -1,5 +1,6 @@
 /** @jsx jsx */
-import { jsx, Grid, Card, Heading, Text, Button } from 'theme-ui';
+import { jsx, Grid, Card, Text, Button } from 'theme-ui';
+import { BsPlus } from 'react-icons/bs'
 import { Link } from 'gatsby';
 import check from '../images/check.svg';
 
@@ -18,7 +19,7 @@ const BaseStyles = {
   cardChildren: {
     marginY: '10px'
   }
-}
+};
 
 const styles = {
   cardPrimary: {
@@ -36,117 +37,148 @@ const styles = {
   cardImage: {
     textAlign: 'center'
   }
-}
+};
 
 export const Pricing = () => {
 
   return (
-    <Grid columns={[1, null, 3]} gap={10} sx={{ marginTop: '40px' }}>
-      <Grid sx={{ textAlign: 'center', margin: 'auto' }}>
-        <Heading as='h5'>Only Requirement</Heading>
+    <Grid sx={{ marginTop: '40px' }}>
+      <Card sx={styles.cardSecondary}>
+        <Grid columns={[3, '1fr 0.5fr 1fr']}>
+          <div style={{textAlign: 'center'}}>
+            <Text sx={{
+            }}>
+              One time cost of
+            </Text>
+            <Text sx={{
+              fontWeight: 'bold',
+              fontSize: '25px'
+            }}>
+              &euro;260
+            </Text>
+            <Text sx={{
+              color: 'secondary',
+              fontWeight: 'bold',
+              fontSize: '50px'
+            }}>
+              <BsPlus/>
+            </Text>
+            <Text>
+              Monthly subscription fee
+            </Text>
+            <Text sx={{
+              fontWeight: 'bold'
+            }}>
+              Starting from &euro;129* only
+            </Text>
+            <Text sx={{
+              fontSize: '10px',
+              color: '#AAAAAA'
+            }}>
+              Cancel anytime
+            </Text>
+
+            <div style={{
+              textAlign: 'center',
+              marginTop: '10px',
+            }}>
+              <Link to='/pricing' style={{
+                textDecoration: 'none'
+              }}>
+                <Button sx={{ width: '100%' }} variant="secondary">
+                  <div sx={{ margin: 'auto' }}>Learn More</div>
+                </Button>
+              </Link>
+            </div>
+            <Text sx={{
+              fontSize: '10px',
+              color: '#AAAAAA'
+            }}>
+              *monthly fee charges based on your monthly revenue
+            </Text>
+          </div>
+          <div>
+            <div css={css `
+            border-left: dotted 3px #333;
+            text-align: center;
+            position: absolute;
+            height: 300px;
+            left: 50%;
+          `}>
+            </div>
+          </div>
+          <div css={css`
+            text-align: left;
+              `}>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>Entity registration</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>State fee (190€+25€ for API)</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>TW balance + card opening</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>Community membership</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>First month service fee</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>Contact person & address service</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>Tax compliance and filing</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>Sales invoices and collection</span>
+            </div>
+            <div>
+              <img src={check} sx={{ marginRight: '15px' }} alt={'loading'} />
+              <span>24/7 Support</span>
+            </div>
+
+          </div>
+
+        </Grid>
+      </Card>
+      <Text sx={{
+        textAlign: 'center'
+      }}>
+        <span sx={{
+          backgroundColor: 'danger',
+          padding: '5px',
+          fontWeight: 'bold',
+          color: 'background',
+          fontSize: '12px',
+          marginRight: '5px'
+        }}>
+        REQUIREMENT
+        </span>
+        {' '}
         <a href={ERESIDENCY_URL} target='__blank'
-          css={css`
+                       css={css`
           color: #07c;
-          text-decoration: none;
-          &:hover {
-            text-decoration: none !important; 
-          }
+          font-weight: bold;
+          text-decoration: underline;
+          &:hover { text-decoration: none !important; } 
         `}
         >
-          <Text>
-            Estonian e-Residency
-          </Text>
+          Estonian e-Residency
         </a>
-      </Grid>
-      <Card sx={styles.cardPrimary}>
-        <Heading as='h5' sx={{ fontWeight: 300 }}>One Time Cost</Heading>
-        <Heading as='h3' sx={{ marginY: '5px' }}>&euro;260</Heading>
-        <Text sx={{ fontSize: 'small', color: '#BDBDBD' }}>One Time Billing</Text>
+        {' '}
+        required before proceeding.
 
-        <Text sx={{
-          fontWeight: 100,
-          textAlign: 'left'
-        }}>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Entity registration</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>State fee (190€+25€ for API)</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>TW balance+card opening</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Community membership</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>First month service fee</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Contact person & address service</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Tax compliance and filing</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Sales invoices and collection</span>
-          </div>
-
-          <div style={{ textAlign: 'center', marginTop: '25px' }}>
-            <Link to='/pricing' style={{
-              textDecoration: 'none'
-            }}>
-              <Button sx={{ width: '100%' }}>
-                <div sx={{ margin: 'auto' }}>Choose Plan</div>
-              </Button>
-            </Link>
-          </div>
-        </Text>
-      </Card>
-      <Card sx={styles.cardSecondary}>
-        <Heading as='h5' sx={{ fontWeight: 300 }}>Monthly Subscription</Heading>
-        <Heading as='h3' sx={{ marginY: '5px' }}>Starting from &euro;129 only</Heading>
-        <Text sx={{ fontSize: 'small', color: '#BDBDBD' }}>Cancel anytime!</Text>
-
-        <Text sx={{
-          fontWeight: 100,
-          textAlign: 'left'
-        }}>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Tax Handling</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>Invoicing</span>
-          </div>
-          <div>
-            <img src={check} sx={{ marginRight: '10px' }} alt={'loading'} />
-            <span>24x7 supprt</span>
-          </div>
-          &nbsp;
-          <div style={{
-            textAlign: 'center',
-            marginTop: '185px',
-          }}>
-            <Link to='/pricing' style={{
-              textDecoration: 'none'
-            }}>
-              <Button sx={{ width: '100%' }} variant="secondary">
-                <div sx={{ margin: 'auto' }}>Know More</div>
-              </Button>
-            </Link>
-          </div>
-        </Text>
-      </Card>
+      </Text>
     </Grid>
   )
-}
+};

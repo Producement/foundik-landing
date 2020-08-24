@@ -5,6 +5,7 @@ export default {
     text: '#000',
     background: '#fff',
     primary: '#07c',
+    danger: '#FB3C56',
     //secondary: '#05a',
     secondary: '#A696C7',
     accent: '#609',
