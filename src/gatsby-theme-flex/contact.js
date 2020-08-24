@@ -1,7 +1,20 @@
 /** @jsx jsx */
 import { jsx, Grid, Text } from 'theme-ui';
 
+import { css } from '@emotion/core';
+
 export const Contact = () => {
+
+  const anchorCss = css`
+                  color: #000;
+                  font-weight: 100;
+                  text-decoration: none;
+                  &:visited {
+                    text-decoration: none;
+                    color: #000;
+                    }
+                  `
+
   return (
     <Grid
       columns={[1, 3, 3]}
@@ -29,9 +42,7 @@ export const Contact = () => {
             <Text sx={{ padding: 5 }}>Address</Text>
           </div>
           <div sx={{ margin: 'auto'}}>
-            <a href='https://goo.gl/maps/FAPcm7BBhY9MNrB1A' target='_blank' rel='noopener noreferrer' sx={{
-              fontWeight: 100
-            }}
+            <a href='https://goo.gl/maps/FAPcm7BBhY9MNrB1A' target='_blank' rel='noopener noreferrer' css={anchorCss}
             >
               <p>Pärnu mnt 20</p>
               <p>10141 Tallinn</p>
@@ -58,12 +69,9 @@ export const Contact = () => {
             <Text sx={{ padding: 5 }}>Support</Text>
           </div>
           <div sx={{ margin: 'auto'}}>
-            <Text sx={{
-              fontWeight: 100
-            }}
-            >
+            <a href={'tel: +37256685499'} css={anchorCss}>
               <p>+372 566 85499</p>
-            </Text>
+            </a>
           </div>
         </Grid>
       </div>
@@ -90,7 +98,9 @@ export const Contact = () => {
               fontWeight: 100
             }}
             >
-              <a rel='noopener noreferrer' href='mailto:hello@foundik.com' target='_blank'>hello@foundik.com</a>
+              <a rel='noopener noreferrer' href='mailto:hello@foundik.com' target='_blank' css={anchorCss}>
+                hello@foundik.com
+              </a>
             </Text>
           </div>
         </Grid>
