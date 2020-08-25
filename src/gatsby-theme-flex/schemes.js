@@ -170,7 +170,7 @@ export const Schemes = () => {
       <div
         sx={{
           bg: '#316099',
-          paddingY: '15px',
+          paddingY: '50px',
           marginBottom: '50px'
         }}
         css={css`

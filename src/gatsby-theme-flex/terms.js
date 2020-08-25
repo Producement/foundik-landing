@@ -8,7 +8,8 @@ export const Terms = () => {
     <section
       id="terms"
       sx={{
-        textAlign: 'center'
+        textAlign: 'center',
+        paddingY: '30px'
       }}
     >
       <Heading sx={{ fontSize: '48px', marginY: '50px' }}>Terms of Use</Heading>
