@@ -13,7 +13,7 @@ export const Contact = () => {
                     text-decoration: none;
                     color: #000;
                     }
-                  `
+                  `;
 
   return (
     <Grid
