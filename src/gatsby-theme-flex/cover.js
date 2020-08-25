@@ -33,7 +33,7 @@ export const Cover = () => {
             <Text
               sx={{
                 fontSize: 2,
-                lineHeight: 1.5,
+                lineHeight: 1.2,
                 marginY: 5
               }}>
               Let us handle all your company's taxes and accounting while you focus on

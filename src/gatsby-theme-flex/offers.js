@@ -15,25 +15,22 @@ export const Offers = () => {
       <OfferCard
         title='EU Company'
         image={OfferEUCompany}
-        content={<div>Foundik offers you an <span sx={{ fontWeight: '500', color: 'primary' }}>EU regulated company</span>
-        (Estonian private limited company - OÜ) that can be managed
-        100% online and anywhere in the world</div>}
+        content={<div>Foundik offers you an EU regulated company - Estonian private limited company(OÜ)
+          that can be managed 100% online and anywhere in the world</div>}
       />
 
       <OfferCard
         title='Banking Account'
         image={OfferBankingAccount}
         content={<div>You can integrate a new TransferWise account to your business who also
-          <span sx={{ fontWeight: '500', color: 'primary' }}> issue a Debit Mastercard </span>
-          for your business transactions - all that 100% online</div>}
+          issue a Debit Mastercard for your business transactions - all that 100% online</div>}
       />
 
       <OfferCard
         title='Accounting'
         image={OfferAccounting}
-        content={<div>We will be taking care of your whole business’s
-          <span sx={{ fontWeight: '500', color: 'primary' }}> accountancy - taxes, invoices</span>.</div>}
+        content={<div>We will be taking care of your whole business’s accountancy - taxes, invoices.</div>}
       />
     </Grid>
   );
-}
+};
