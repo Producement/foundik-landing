@@ -112,7 +112,7 @@ export const Pricing = () => {
                 borderLeft: 'dotted 3px #333',
                 textAlign: 'center',
                 position: 'absolute',
-                height: '50%',
+                height: '300px',
                 left: '50%',
               }
             }}>
