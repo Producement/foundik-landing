@@ -44,7 +44,14 @@ export const Pricing = () => {
   return (
     <Grid sx={{ marginTop: '40px' }}>
       <Card sx={styles.cardSecondary}>
-        <Grid columns={[3, '1fr 0.5fr 1fr']}>
+        <div sx={{
+          display: 'grid',
+          gridGap: 4,
+          gridTemplateColumns: [
+            'auto',
+            '1fr 0.5fr 1fr'
+          ]
+        }}>
           <div style={{textAlign: 'center'}}>
             <Text sx={{
             }}>
@@ -97,14 +104,18 @@ export const Pricing = () => {
               *monthly fee charges based on your monthly revenue
             </Text>
           </div>
-          <div>
-            <div css={css `
-            border-left: dotted 3px #333;
-            text-align: center;
-            position: absolute;
-            height: 300px;
-            left: 50%;
-          `}>
+          <div sx={{
+            height: '100%'
+          }}>
+            <div sx={{
+              '@media screen and (min-width: 40em)': {
+                borderLeft: 'dotted 3px #333',
+                textAlign: 'center',
+                position: 'absolute',
+                height: '50%',
+                left: '50%',
+              }
+            }}>
             </div>
           </div>
           <div css={css`
@@ -149,7 +160,7 @@ export const Pricing = () => {
 
           </div>
 
-        </Grid>
+        </div>
       </Card>
       <Text sx={{
         textAlign: 'center'
