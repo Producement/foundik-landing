@@ -1,4 +1,4 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
 module.exports = {
   siteMetadata: {
@@ -37,14 +37,6 @@ module.exports = {
       {
         title: `Privacy Policy`,
         path: `/privacy`
-      },
-      {
-        title: `Home`,
-        path: `/`
-      },
-      {
-        title: `Sign In`,
-        path: `https://app.foundik.com/auth/sign-in`
       },
     ],
   },
