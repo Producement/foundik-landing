@@ -24,7 +24,6 @@ export const Terms = () => {
         <div>
           <div data-custom-class="body">
             <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div align="center" className="MsoNormal" data-custom-class="title" style={{ textAlign: 'left', lineHeight: '1.5' }}><a name="_gm5sejt4p02f" /><strong><span style={{ lineHeight: '150%', fontFamily: 'Arial', fontSize: '26px' }}>TERMS OF USE</span></strong></div>
               <div align="center" className="MsoNormal" style={{ textAlign: 'center', lineHeight: '1.5' }}><a name="_7m5b3xg56u7y" /></div>
               <div align="center" className="MsoNormal" data-custom-class="subtitle" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
               <div align="center" className="MsoNormal" data-custom-class="subtitle" style={{ textAlign: 'left', lineHeight: '1.5' }}>
