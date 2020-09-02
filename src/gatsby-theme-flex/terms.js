@@ -24,7 +24,6 @@ export const Terms = () => {
         <div>
           <div data-custom-class="body">
             <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div align="center" className="MsoNormal" data-custom-class="title" style={{ textAlign: 'left', lineHeight: '1.5' }}><a name="_gm5sejt4p02f" /><strong><span style={{ lineHeight: '150%', fontFamily: 'Arial', fontSize: '26px' }}>TERMS OF USE</span></strong></div>
               <div align="center" className="MsoNormal" style={{ textAlign: 'center', lineHeight: '1.5' }}><a name="_7m5b3xg56u7y" /></div>
               <div align="center" className="MsoNormal" data-custom-class="subtitle" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
               <div align="center" className="MsoNormal" data-custom-class="subtitle" style={{ textAlign: 'left', lineHeight: '1.5' }}>
@@ -58,7 +57,7 @@ export const Terms = () => {
                   <strong>Company</strong>
                   <bdt className="statement-end-if-in-editor" />
                 ", “<strong>we</strong>”, “<strong>us</strong>”, or “<strong>our</strong>”), concerning your access to and use of the
-                <bdt className="block-container question question-in-editor" data-id="fdf30452-99b8-c68b-5cdf-34af764cd1fd" data-type="question"><a href="https://foundik.com" target="_blank" data-custom-class="link">https://foundik.com</a></bdt>
+                <bdt className="block-container question question-in-editor" data-id="fdf30452-99b8-c68b-5cdf-34af764cd1fd" data-type="question"><a href="https://foundik.com" target="_blank" data-custom-class="link" style={{ textDecoration: 'none'}}> https://foundik.com </a></bdt>
                 website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Use
                 <bdt className="block-container if" data-type="if" id="c4a4c609-d962-97d8-9b96-d3492402adad">
                     <bdt data-type="conditional-block">
