@@ -560,7 +560,7 @@ export const Terms = () => {
                       </strong>
                     </div>
                     <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <bdt className="question"><strong><span style={{ fontSize: '15px' }}>hello@foundik.com</span></strong></bdt>
+                      <bdt className="question"><strong><span style={{ fontSize: '15px' }}><a style={{ textDecoration: 'none'}}href="mailto:hello@foundik.com"><i>hello@foundik.com</i></a></span></strong></bdt>
                     </div>
                   </bdt></bdt></bdt></div>
           </div>
