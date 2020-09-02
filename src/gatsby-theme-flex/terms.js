@@ -518,7 +518,7 @@ export const Terms = () => {
                       <strong>
                         <span style={{ color: 'rgb(89, 89, 89)' }}>
                           <span style={{ fontSize: '15px' }}>
-                            <bdt className="question">Tallinn</bdt>
+                            <bdt className="question">10141</bdt>
                             <strong>
                               <span style={{ color: 'rgb(89, 89, 89)' }}>
                                 <span style={{ fontSize: '15px' }}>
@@ -530,7 +530,7 @@ export const Terms = () => {
                               <strong>
                                 <span style={{ color: 'rgb(89, 89, 89)' }}>
                                   <bdt className="block-component" />
-                                  <bdt className="question">10141</bdt>
+                                  <bdt className="question"> Tallinn</bdt>
                                   <bdt className="statement-end-if-in-editor" />
                                 </span>
                               </strong>
