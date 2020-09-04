@@ -6,11 +6,12 @@ import HeaderNav from "./header-nav"
 import Header from "gatsby-theme-flex/src/layout/header"
 import { useState } from "react"
 import Button from "gatsby-theme-flex/src/components/button"
+import logo from "../../../assets/images/foundik-blue.svg"
 
 // Uncomment when we enable dark mode
 // import ColorModeSelector from "gatsby-theme-flex/src/misc/color-mode-selector"
 
-export default ({ logo, siteName, headerLinks }) => {
+export default ({ siteName, headerLinks }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
