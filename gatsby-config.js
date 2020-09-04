@@ -2,10 +2,10 @@ require(`dotenv`).config();
 
 module.exports = {
   siteMetadata: {
-    title: `Foundik`,
+    title: ``,
     description: `Foundik`,
     siteUrl: process.env.SITE_URL,
-    logo: `logo2.png`,
+    logo: `foundik-blue.svg`,
     copyright: `© YYYY Foundik. All rights reserved.`,
     headerLinks: [
       {
