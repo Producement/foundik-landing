@@ -8,4 +8,5 @@ export { Head } from "./head";
 export { Schemes } from './schemes';
 export { Terms } from './terms';
 export { Privacy } from './privacy';
+export { Plans } from './plans';
 export { About } from './about';
