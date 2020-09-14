@@ -21,6 +21,10 @@ module.exports = {
         path: `#registration-process`,
       },
       {
+        title: `About us`,
+        path: `#about`,
+      },
+      {
         title: `Contact`,
         path: `#contact`,
       },
