@@ -1,43 +1,24 @@
 <div>
-<h1>Flex</h1>
+<h1>Foundik landing page</h1>
 <p>
-A Gatsby starter to kick off a site using the <a href="https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-flex">gatsby-theme-flex</a> theme.
+ The Foundik landing page is using <a href="https://www.gatsbyjs.com/">gatsby</a> with the <a href="https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-flex">gatsby-theme-flex</a> theme.
 </p>
 </div>
 
-<p>
-  <a href="https://flex.arshad.io"><img src="https://img.shields.io/badge/demo-netlify-success" alt="Demo"></a>
-</p>
-
-<p>
-  <img src="https://arshad.io/uploads/gatsby-theme-flex.gif" alt="flex preview" />
-</p>
-
-<h3 align="center"><code>gatsby new site arshad/gatsby-starter-flex</code></h3>
-
-## Installation
-
-### Step 1: Run the following command to create a new site
+### To run the site locally run
 
 ```shell
-gatsby new site arshad/gatsby-starter-flex
-```
-
-### Step 2: Configure `.env`
-
-Copy `.env.example` to `.env` and update `SITE_URL`.
-
-### Step 3: Start developing
-
-```shell
-cd my-site/
 gatsby develop
 ```
+The site will run on localhost port 8000
 
 ## Customization
 
 Check out the docs for [gatsby-theme-flex](https://flex.arshad.io/docs).
 
-## Support
+## Add custom components
 
-Create an issue on the main repo [@arshad/gatsby-themes](https://github.com/arshad/gatsby-themes/issues).
+Check out the <a href="https://www.gatsbyjs.com/docs/themes/shadowing/">component shadowing</a>. Some examples already present in the repository are the 
+header.js, header-nav.js and footer-nav.js files.  
+
+
