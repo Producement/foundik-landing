@@ -37,7 +37,7 @@ export default ({ siteName, headerLinks }) => {
               alignItems: `center`,
             }}
           >
-            <Branding name={siteName} logo={logo} />
+            <Branding name={''} logo={logo} />
             <Button
               onClick={() => setShowMenu(!showMenu)}
               aria-label="Toggle menu"
