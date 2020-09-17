@@ -88,9 +88,14 @@ export const FAQs = () => {
             <Heading as="h3">What is Foundik?</Heading>
           </AccordionSummary>
           <AccordionDetails>
-            <Text sx={{ fontWeight: 'lighter', textAlign: 'left' }}>Foundik is service provider that helps entrepreneurs to open a business in Estonia, 
-            even without an address here. We don't only help you to register the company but also all the necessary things to run it.
-            So, you could concentrate on your business and we can handle the rest.
+            <Text sx={{ fontWeight: 'lighter', textAlign: 'left' }}>
+              <p>
+              Foundik is a service provider that helps entrepreneurs to open a business in Estonia, regardless if you live in 
+              Estonia or not. If you do not live in Estonia, we can provide an address for your company. We not only help you to 
+              register the company but provide access to all the necessary tools to run it.
+              </p>
+
+              <p>So, you could concentrate on your business and we can handle the rest.</p>
             </Text>
           </AccordionDetails>
         </Accordion>
@@ -260,7 +265,7 @@ export const FAQs = () => {
             <ul>
               <li>If you send up to 10 sales invoices, we will charge you 129€.</li>
               <li>If you send between 10 and 25 sales invoices, we will charge you 159€.</li>
-              <li>If you need to send more than 25 invoices, please contact us at 
+              <li>If you need to send more than 25 invoices, please contact us at&nbsp;
                 <a href={SUPPORT_EMAIL}>hello@foundik.com</a> and we will give you a customized pricing plan</li>
             </ul>
             </p>
