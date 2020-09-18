@@ -40,7 +40,7 @@ export const About = () => {
           fontSize: '18px'
         }}>
           Producement is a startup consisted of high level product engineers. They are responsible for the
-          software infrastructure of Foundik. For more information about Producement
+          software infrastructure of Foundik.
           {' '}
           <a href={PRODUCEMENT_URL} target='__blank'
              css={css`
@@ -50,7 +50,7 @@ export const About = () => {
           &:hover { text-decoration: none !important; } 
         `}
           >
-            click here
+            Read more about Producement.
           </a>
 
         </Text>
@@ -75,7 +75,7 @@ export const About = () => {
           fontSize: '18px'
         }}>
           Robby & Bobby is a modern accountancy company with a focus on helping small and middle-size
-          business owners develop their businesses and achieve their goals. For more information about Robby & Bobby
+          business owners develop their businesses and achieve their goals.
           {' '}
           <a href={ROBBY_BOBBY_URL} target='__blank'
              css={css`
@@ -85,7 +85,7 @@ export const About = () => {
           &:hover { text-decoration: none !important; } 
         `}
           >
-            click here
+            Read more about Robby & Bobby.
           </a>
         </Text>
 

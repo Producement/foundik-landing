@@ -2,6 +2,7 @@
 import { jsx, Heading, Card, Grid, Text } from 'theme-ui';
 import { css } from '@emotion/core';
 import { Plan } from './Plan';
+import {ERESIDENCY_URL} from "../../constants";
 
 const BaseStyles = {
   card: {
@@ -59,52 +60,67 @@ export const Plans = () => {
         textAlign: 'center'
       }}
     >
-      <div
-        sx={{
-          bg: '#316099',
-          paddingY: '50px',
-          marginBottom: '50px'
-        }}
-        css={css`
-          &:after {
-            content: "";
-            position: absolute;
-            margin: 0 -95px; 
-            border-top: 35px solid blue;
-            border-top-color: #316099; 
-            border-left: 100px solid transparent;
-            border-right: 100px solid transparent; 
-          }
+      <Text sx={{fontSize: '24px'}}>
+        A one time setup fee of
+        {' '}
+        <span sx={{fontWeight: 'bold', textDecoration: 'underline'}}>
+          &euro;260
+        </span>
+        {' '}
+        required plus a monthly fee based on your business needs.
+      </Text>
+      <Text sx={{
+        textAlign: 'center',
+        paddingY: '20px'
+      }}>
+        <span sx={{
+          backgroundColor: 'danger',
+          padding: '5px',
+          fontWeight: 'bold',
+          color: 'background',
+          fontSize: '12px',
+          marginRight: '5px'
+        }}>
+        REQUIREMENT
+        </span>
+        {' '}
+        <a href={ERESIDENCY_URL} target='__blank'
+           css={css`
+          color: #07c;
+          font-weight: bold;
+          text-decoration: underline;
+          &:hover { text-decoration: none !important; } 
         `}
-      >
-        <Heading sx={{ fontSize: '48px', marginY: '40px', color: '#fff' }}>Pricing</Heading>
-        <Heading sx={{ fontSize: '18px', marginY: '20px', color: '#fff' }}>Pricing is based on your company’s
-          monthly revenue. Choose a range to get pricing details.</Heading>
-      </div>
-      <div sx={{ maxWidth: 'container', margin: 'auto' }}>
+        >
+          Estonian e-Residency
+        </a>
+        {' '}
+        required before proceeding.
+
+      </Text>
+      <div sx={{ maxWidth: 'container', margin: 'auto', paddingTop: '30px' }}>
         <Grid gap={10}
           columns={[1, 3, 3]}>
           <Plan
-            name="Starter"
+            name="STARTER"
             price="129"
-            subtitle="For individuals who are just getting started"
+            subtitle="Ideal for individuals who are just getting started"
             features={features.starter}
           />
 
           <Plan
-            name="Standard"
+            name="STANDARD"
             price="159"
-            subtitle="For established business owners"
+            subtitle="Ideal for small businesses"
             features={features.standard}
-            primary={true}
           />
 
           <Plan
-            name="Corporate"
+            name="CORPORATE"
             price="?"
-            subtitle="For established business owners"
+            subtitle="Ideal for established business owners"
             features={features.corporate}
-            buttonLabel="Ask for quote"
+            isCustomPlan={true}
           />
         </Grid>
       </div>
