@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Heading, Container } from 'theme-ui';
+import { jsx, Heading, Container, Grid } from 'theme-ui';
 import { css } from '@emotion/core';
 
 
@@ -12,7 +12,7 @@ export const Terms = () => {
         paddingY: '30px'
       }}
     >
-      <Heading sx={{ fontSize: '48px', marginY: '50px' }}>Terms of Use</Heading>
+      <Heading sx={{ fontSize: '48px', marginY: '50px' }}>TERMS OF SERVICE</Heading>
 
       <Container sx={{ textAlign: 'left' }}
         css={css`
@@ -22,550 +22,636 @@ export const Terms = () => {
         `}
       >
         <div>
-          <div data-custom-class="body">
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div align="center" className="MsoNormal" style={{ textAlign: 'center', lineHeight: '1.5' }}><a name="_7m5b3xg56u7y" /></div>
-              <div align="center" className="MsoNormal" data-custom-class="subtitle" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
-              <div align="center" className="MsoNormal" data-custom-class="subtitle" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-                <span style={{ fontSize: '11.0pt', lineHeight: '150%', fontFamily: 'Arial', color: '#A6A6A6', msoThemecolor: 'background1', msoThemeshade: 166 }}>
-                  <span style={{ color: 'rgb(127, 127, 127)', fontSize: '15px', textAlign: 'justify' }}><strong>Last updated</strong></span><strong><span style={{ color: 'rgb(127,127,127)', fontSize: '14.6667px', textAlign: 'justify' }}> </span></strong>
-                  <span style={{ color: 'rgb(127, 127, 127)', fontSize: '15px', textAlign: 'justify' }}>
-                    <bdt className="block-container question question-in-editor" data-id="0d5ae8ae-7749-9afb-1fed-6556cb563dc0" data-type="question"><strong>August 31, 2020</strong></bdt>
-                  </span>
-                </span>
-              </div>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_6aa3gkhykvst" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>AGREEMENT TO TERMS</span></strong></div>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                  These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and
-                <bdt className="block-container question question-in-editor" data-id="9d459c4e-c548-e5cb-7729-a118548965d2" data-type="question">Foundik OÜ</bdt>
-                </span>
-                <span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}>
-                  <bdt className="block-component" />
-                </span>
-                <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                  ("
-                <bdt className="block-component" />
-                  <strong>Company</strong>
-                  <bdt className="statement-end-if-in-editor" />
-                ", “<strong>we</strong>”, “<strong>us</strong>”, or “<strong>our</strong>”), concerning your access to and use of the
-                <bdt className="block-container question question-in-editor" data-id="fdf30452-99b8-c68b-5cdf-34af764cd1fd" data-type="question"><a href="https://foundik.com" target="_blank" data-custom-class="link" style={{ textDecoration: 'none'}}> https://foundik.com </a></bdt>
-                website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Use
-                <bdt className="block-container if" data-type="if" id="c4a4c609-d962-97d8-9b96-d3492402adad">
-                    <bdt data-type="conditional-block">
-                      <bdt className="block-component" data-record-question-key="separate_agreement_option" data-type="statement" />
-                    </bdt>
-                  </bdt>
-                  <bdt className="block-container if" data-type="if" id="c4a4c609-d962-97d8-9b96-d3492402adad">
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">, </bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt className="block-container if" data-type="if" id="c4a4c609-d962-97d8-9b96-d3492402adad">
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">
-                        including the
-                      <bdt className="block-container question question-in-editor" data-id="854b2e15-26e1-3b27-3764-4c2e1562ed00" data-type="question">User Agreement</bdt>
-                      </bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt className="block-container if" data-type="if" id="c4a4c609-d962-97d8-9b96-d3492402adad">
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body"> posted on the Site, which are incorporated into these Terms of Use</bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt className="block-container if" data-type="if" id="c4a4c609-d962-97d8-9b96-d3492402adad">
-                    <bdt className="statement-end-if-in-editor" data-type="close" />
-                  </bdt>
-                . IF YOU DO NOT AGREE WITH ALL OF THESE TERMS
-                OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-              </span>
-              </div>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms of Use, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Terms of Use to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Use by your continued use of the Site after the date such revised Terms of Use are posted.</span></span></div>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>The information provided on the Site is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Site from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.</span><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span></div>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                <span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}>
-                  <bdt className="block-component" />
-                  <bdt className="block-component" />
-                </span>
-              </div>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: 1 }}><br /></div>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                <span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}>
-                  The Site is not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use this Site. You may not use the Site in a way that would violate the Gramm-Leach-Bliley Act (GLBA).
-                <bdt className="block-component" />
-                  <bdt className="statement-end-if-in-editor" />
-                </span>
-              </div>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: 1 }}><br /></div>
-              <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                <bdt className="block-container if" data-type="if" id="a2595956-7028-dbe5-123e-d3d3a93ed076">
-                  <bdt data-type="conditional-block">
-                    <span style={{ fontSize: '15px' }}>
-                      <bdt className="block-component" data-record-question-key="user_o18_option" data-type="statement" />
-                    </span>
-                    <bdt data-type="body"><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>The
-                    Site is intended for users who are at least 18 years old. Persons under the age
-                      of 18 are not permitted to use or</span><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>register for the Site.</span>
-                    </bdt>
-                  </bdt>
-                  <bdt data-type="conditional-block">
-                    <span style={{ fontSize: '15px' }}>
-                      <bdt className="block-component" data-record-question-key="user_o18_option" data-type="statement">
-                      </bdt></span>
-                  </bdt>
-                </bdt>
-              </div>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_b6y29mp52qvx" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>INTELLECTUAL PROPERTY RIGHTS</span></strong></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>Unless otherwise
-            indicated, the Site is our proprietary property and all source code, databases,
-            functionality, software, website designs, audio, video, text, photographs, and
-            graphics on the Site (collectively, the “Content”) and the trademarks, service
-            marks, and logos contained therein (the “Marks”) are owned or controlled by us or
-            licensed to us, and are protected by copyright and trademark laws and various
-            other intellectual property rights and unfair competition laws of the United
-            States, international copyright laws, and international conventions. The Content and the Marks are provided on the
-            Site “AS IS” for your information and personal use only. Except as expressly provided in these Terms
-            of Use, no part of the Site and no Content or Marks may be copied, reproduced,
-            aggregated, republished, uploaded, posted, publicly displayed, encoded,
-            translated, transmitted, distributed, sold, licensed, or otherwise exploited
-            for any commercial purpose whatsoever, without our express prior written
-                permission.</span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>Provided that you
-            are eligible to use the Site, you are granted a limited license to access and
-            use the Site and to download or print a copy of any portion of the Content to
-            which you have properly gained access solely for your personal, non-commercial
-                use. We reserve all rights not expressly granted to you in and to the Site, the Content and the Marks.</span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_5hg7kgyv9l8z" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>USER REPRESENTATIONS</span></strong></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>By using the Site, you represent and warrant that:</span><bdt className="block-container if" data-type="if" id="d2d82ca8-275f-3f86-8149-8a5ef8054af6"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_account_option" data-type="statement"><span style={{ fontSize: '15px' }} /></bdt><bdt data-type="body"><span style={{ color: 'rgb(89, 89, 89)', fontSize: '11pt' }}> (</span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>1)</span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '11pt' }}> </span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>all registration information you submit
-                      will be true, accurate, current, and complete; (</span><span style={{ fontSize: '15px' }}><span style={{ color: 'rgb(89, 89, 89)' }}>2</span></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>) you will maintain the accuracy of such information and promptly update such registration information</span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '11pt' }}> </span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>as necessary;</span></bdt></bdt><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt> </bdt><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>(</span><span style={{ fontSize: '15px' }}><span style={{ color: 'rgb(89, 89, 89)' }}>3</span></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>) you have the legal capacity and you agree to comply with these Terms of Use; <bdt className="block-component" /></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>(</span><span style={{ fontSize: '15px' }}><span style={{ color: 'rgb(89, 89, 89)' }}>4</span></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>) you are not a
-                minor in the jurisdiction in which you reside<bdt className="block-container if" data-type="if" id="76948fab-ec9e-266a-bb91-948929c050c9"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_o18_option" data-type="statement" /></bdt>;</bdt></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '11pt' }}> </span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>(</span><span style={{ fontSize: '15px' }}><span style={{ color: 'rgb(89, 89, 89)' }}>5</span></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>) you will not access the Site
-              through automated or non-human means, whether through a bot, script or
-                otherwise;</span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '11pt' }}> </span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>(</span><span style={{ fontSize: '15px' }}><span style={{ color: 'rgb(89, 89, 89)' }}>6</span></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>) you will not use the Site for any illegal or unauthorized
-                purpose; and (</span><span style={{ fontSize: '15px' }}><span style={{ color: 'rgb(89, 89, 89)' }}>7</span></span><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>) your use of the Site
-                will not violate any applicable law or regulation.</span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Site (or any portion thereof). </span></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><bdt className="block-container if" data-type="if" id="d13abc62-cc6f-e059-7fd6-cb6208085aa7"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_account_option" data-type="statement" /> <bdt data-type="body"><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5', textAlign: 'left' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>USER REGISTRATION</span></strong></div></bdt></bdt></bdt></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ textAlign: 'left', lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>You may be
-            required to register with the Site. You agree to keep your password
-            confidential and will be responsible for all use of your account and password.
-            We reserve the right to remove, reclaim, or change a username you select if we
-            determine, in our sole discretion, that such username is inappropriate,
-                        obscene, or otherwise objectionable.</span></div></bdt></bdt></bdt></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><bdt className="block-container if" data-type="if"><bdt className="statement-end-if-in-editor" data-type="close" /></bdt></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_ynub0jdx8pob" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>FEES AND PAYMENT</span></strong></div><div className="MsoNormal" style={{ lineHeight: 1 }}><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><br /></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }}>We accept the following forms of payment:</span></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><div className="MsoNormal" style={{ lineHeight: '17.25px' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: 1, textAlign: 'left' }}><br /></div><div className="MsoNormal" data-custom-class="body_text" style={{ marginLeft: '46.9pt', textIndent: '-18.55pt', lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="block-container forloop" data-type="forloop" id="a6e21b8e-b955-c546-15dd-bb6eda2fe88a"><bdt data-type="conditional-block"><bdt className="forloop-component" data-record-question-key="payment_list" data-type="statement" /></bdt></bdt><bdt className="block-container forloop" data-type="forloop" id="a6e21b8e-b955-c546-15dd-bb6eda2fe88a"><bdt data-type="conditional-block"><bdt data-type="body"><span style={{ textIndent: '-24.7333px' }}>-  Visa</span></bdt> </bdt></bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ marginLeft: '46.9pt', textIndent: '-18.55pt', lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="block-container forloop" data-type="forloop"><bdt className="for-end-in-editor" data-type="close" /></bdt><bdt className="block-container forloop" data-type="forloop" id="a6e21b8e-b955-c546-15dd-bb6eda2fe88a"><bdt data-type="conditional-block"><bdt data-type="body"><span style={{ textIndent: '-24.7333px' }}>-  Mastercard</span></bdt> </bdt></bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ marginLeft: '46.9pt', textIndent: '-18.55pt', lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="block-container forloop" data-type="forloop"><bdt className="for-end-in-editor" data-type="close" /></bdt></span></div></div><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><div className="MsoNormal" style={{ lineHeight: 1, textAlign: 'left' }}><br /></div></span><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ lineHeight: '115%', color: 'rgb(89, 89, 89)' }}>You may be required to purchase or pay a fee to access some of our services. You agree to provide current, complete, and accurate purchase and account information for all purchases made via the Site. You further agree to promptly update account and payment information, including email address, payment method, and payment card expiration date, so that we can complete your transactions and contact you as needed. We bill you through an online billing account for purchases made via the Site. Sales tax will be added to the price of purchases as deemed required by us. We may change prices at any time. All payments shall be in <bdt className="question">Euros</bdt>.</span></div></span><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><div className="MsoNormal" style={{ lineHeight: 1, textAlign: 'left' }}><br /></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}>You agree to pay all charges or fees at the prices then in effect for your purchases, and you authorize us to charge your chosen payment provider for any such amounts upon making your purchase. <bdt className="block-container if" data-type="if" id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="recurring_charge_option" data-type="statement" /></bdt></bdt><bdt className="block-container if" data-type="if" id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"><bdt data-type="conditional-block"><bdt data-type="body">If </bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"><bdt data-type="conditional-block"><bdt data-type="body">your purchase is subject to recurring charges, then you consent to our charging your payment method on a recurring basis without requiring your prior approval for each recurring charge, until you notify us of your cancellation. </bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"><bdt className="statement-end-if-in-editor" data-type="close" /></bdt></span></div><br /></span><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ lineHeight: '115%', color: 'rgb(89, 89, 89)' }}>We reserve the right to correct any errors or mistakes in
-              pricing, even if we have already requested or received payment. We also reserve
-                    the right to refuse any order placed through the Site.</span></div></span></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><div className="MsoNormal" style={{ lineHeight: '1.5', textAlign: 'left' }}><a name="_drzjqilz2ujm" /></div><bdt className="block-container if" data-type="if" id="4380167d-5abe-b98f-f389-f707429e6c52"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="free_trial_option" data-type="statement" /></bdt><div className="MsoNormal" data-custom-class="heading_1" style={{ textAlign: 'left', lineHeight: '1.5' }}><a name="_e993diqrk0qx" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>CANCELLATION</span></strong></div></bdt></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="cef55cf6-3a65-8031-d0c3-cffe36e64f10"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="return_option" data-type="statement" /></bdt>You can cancel your subscription at any time</bdt></span><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="1a40a488-252c-f087-02cc-5e0de451aa88"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="cancel_how" data-type="statement" /></bdt></bdt><bdt className="block-container if" data-type="if" id="1a40a488-252c-f087-02cc-5e0de451aa88"><bdt data-type="conditional-block"><bdt data-type="body">by logging into
-                        your account or contacting us using the contact</bdt></bdt></bdt></span><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><bdt className="block-container if" data-type="if" id="1a40a488-252c-f087-02cc-5e0de451aa88"><bdt data-type="conditional-block"><bdt data-type="body"> </bdt></bdt></bdt></span><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="1a40a488-252c-f087-02cc-5e0de451aa88"><bdt data-type="conditional-block"><bdt data-type="body">information provided below</bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="1a40a488-252c-f087-02cc-5e0de451aa88"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="cancel_how" data-type="statement" /></bdt>. Your cancellation will take effect at the end of the current paid term.</bdt></span><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span></div></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}>If you are unsatisfied with our services, please email us at <bdt className="block-container question question-in-editor" data-id="7c40698b-5cc8-bb58-245d-2fbd1b57dfba" data-type="question">hello@foundik.com</bdt><bdt className="block-component" /> or call us at</span><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}><bdt className="block-container question question-in-editor" data-id="7d27e26e-2e8b-6d22-d41d-b468e8115f39" data-type="question">+372 566 85499</bdt></span><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}><span style={{ fontSize: '15px', lineHeight: '115%', color: 'rgb(89, 89, 89)' }}><bdt className="statement-end-if-in-editor" /></span></span></span>.</span></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ lineHeight: 1 }}><bdt className="block-container if" data-type="if" id="b671a946-ab46-9fff-9cee-e88149335e8e"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="software_option" data-type="statement" /></bdt></bdt></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5', textAlign: 'left' }}><a name="_h284p8mrs3r7" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>PROHIBITED ACTIVITIES</span></strong><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span></div></div><div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us. </span><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}> </span></span></div><div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '115%' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}>As a user of the Site, you agree not to:</span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: 1, marginLeft: '20px', textAlign: 'left' }}><br /></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>1</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>2</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>3</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>4</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Engage in unauthorized framing of or linking to the Site.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>5</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>6</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Make improper use of our support services or submit false reports of abuse or misconduct.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>7</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>8</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>9</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Use any information obtained from the Site in order to harass, abuse, or harm another person.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>10</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>11</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Site to you.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>12</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>13</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Copy or adapt the Site’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>14</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Delete the copyright or other proprietary rights notice from any Content.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>15</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>16</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or “pcms”).</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>17</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Use the Site in a manner inconsistent with any applicable laws or regulations.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>18</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /><bdt className="block-container forloop" data-type="forloop" id="19beb913-5a5e-2b51-51f9-8600a8eb26c3" style={{ display: 'inline', color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontSize: '15px', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '0px', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial' }}><bdt data-type="conditional-block" style={{ display: 'inline' }}><bdt data-type="body" style={{ display: 'inline' }}><span style={{ fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textIndent: '-22.05pt', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', backgroundColor: 'rgb(255, 255, 255)', textDecorationStyle: 'initial', textDecorationColor: 'initial', color: 'rgb(89, 89, 89)', fontSize: '14.6667px' }}>19</span></bdt></bdt></bdt><span style={{ color: 'rgb(89, 89, 89)', fontFamily: 'sans-serif', fontStyle: 'normal', fontVariantLigatures: 'normal', fontVariantCaps: 'normal', fontWeight: 400, letterSpacing: 'normal', orphans: 2, textAlign: 'justify', textTransform: 'none', whiteSpace: 'normal', widows: 2, wordSpacing: '0px', WebkitTextStrokeWidth: '0px', textDecorationStyle: 'initial', textDecorationColor: 'initial', textIndent: '-29.4px', backgroundColor: 'rgb(255, 255, 255)', fontSize: '14.6667px' }}>. </span> <bdt className="question">Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.</bdt></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="forloop-component" /></span></div></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><a name="_zbbv9tgty199" /></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>USER GENERATED CONTRIBUTIONS</span></strong></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '115%' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="24327c5d-a34f-f7e7-88f1-65a2f788484f"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_post_content_option" data-type="statement"><span style={{ fontSize: '15px' }} /></bdt></bdt></bdt>The Site may invite you to chat, contribute to, or participate in blogs, message boards, online forums, and other functionality, and may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or on the Site, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, "Contributions"). Contributions may be viewable by other users of the Site and through third-party websites. As such, any Contributions you transmit may be treated as non-confidential and non-proprietary. When you create or make available any Contributions, you thereby represent and warrant that:<bdt className="else-block" /></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: 1, marginLeft: '20px', textAlign: 'left' }}><span style={{ fontSize: '14px', color: 'rgb(89, 89, 89)' }}><br /></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', marginLeft: '20px', textAlign: 'left' }}><span style={{ color: 'rgb(89, 89, 89)' }}><span style={{ fontSize: '14px' }}>1.  The creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party.<br />2.  You are the creator and owner of or have the necessary licenses, rights, consents, releases, and permissions to use and to authorize us, the Site, and other users of the Site to use your Contributions in any manner contemplated by the Site and these Terms of Use.<br />3.  You have the written consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Site and these Terms of Use.<br />4.  Your Contributions are not false, inaccurate, or misleading.<br />5.  Your Contributions are not unsolicited or unauthorized advertising, promotional materials, pyramid schemes, chain letters, spam, mass mailings, or other forms of solicitation.<br />6.  Your Contributions are not obscene, lewd, lascivious, filthy, violent, harassing, libelous, slanderous, or otherwise objectionable (as determined by us).<br />7.  Your Contributions do not ridicule, mock, disparage, intimidate, or abuse anyone.<br />8.  Your Contributions do not advocate the violent overthrow of any government or incite, encourage, or threaten physical harm against another.<br />9.  Your Contributions do not violate any applicable law, regulation, or rule.<br />10.  Your Contributions do not violate the privacy or publicity rights of any third party.<br />11.  Your Contributions do not contain any material that solicits personal information from anyone under the age of 18 or exploits people under the age of 18 in a sexual or violent manner.<br />12.  Your Contributions do not violate any applicable law concerning child pornography, or otherwise intended to protect the health or well-being of minors.<br />13.  Your Contributions do not include any offensive comments that are connected to race, national origin, gender, sexual preference, or physical handicap.<br />14.  Your Contributions do not otherwise violate, or link to material that violates, any provision of these Terms of Use, or any applicable law or regulation.</span></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: 1, marginLeft: '20px', textAlign: 'left' }}><br /></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}>Any use of the Site in violation of the foregoing violates these Terms of Use and may result in, among other things, termination or suspension of your rights to use the Site.</span></div></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>CONTRIBUTION LICENSE</span></strong></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="a088ddfb-d8c1-9e58-6f21-958c3f4f0709"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_post_content_option" data-type="statement" /></bdt></bdt>By posting your
-                      Contributions to any part of the Site<bdt className="block-container if" data-type="if" id="19652acc-9a2a-5ffe-6189-9474402fa6cc"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="socialnetwork_link_option" data-type="statement" /></bdt></bdt><bdt className="block-container if" data-type="if" id="19652acc-9a2a-5ffe-6189-9474402fa6cc"><bdt data-type="conditional-block"><bdt data-type="body"> </bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="19652acc-9a2a-5ffe-6189-9474402fa6cc"><bdt data-type="conditional-block"><bdt data-type="body">or making Contributions accessible to
-              the Site by linking your account from the Site to any of your social networking
-                            accounts</bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="19652acc-9a2a-5ffe-6189-9474402fa6cc"><bdt className="statement-end-if-in-editor" data-type="close" /></bdt>, you automatically grant, and you represent and warrant that you have the right to grant, to us an unrestricted, unlimited, irrevocable, perpetual, non-exclusive, transferable, royalty-free, fully-paid, worldwide right, and license to host, use, copy, reproduce, disclose, sell, resell, publish, broadcast, retitle, archive, store, cache, publicly perform, publicly display, reformat, translate, transmit, excerpt (in whole or in part), and distribute such Contributions (including, without limitation, your image and voice) for any purpose, commercial, advertising, or otherwise, and to prepare derivative works of, or incorporate into other works, such Contributions, and grant and authorize sublicenses of the foregoing. The use and distribution may occur in any media formats and through any media channels. </span></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>This license will apply to any form, media, or technology now known or hereafter developed, and includes our use of your name, company name, and franchise name, as applicable, and any of the trademarks, service marks, trade names, logos, and personal and commercial images you provide. You waive all moral rights in your Contributions, and you warrant that moral rights have not otherwise been asserted in your Contributions. </span></span></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We do not assert any ownership over your Contributions. You retain full ownership of all of your Contributions and any intellectual property rights or other proprietary rights associated with your Contributions. We are not liable for any statements or representations in your Contributions provided by you in any area on the Site. You are solely responsible for your Contributions to the Site and you expressly agree to exonerate us from any and all responsibility and to refrain from any legal action against us regarding your Contributions. </span></span></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We have the right, in our sole and absolute discretion, (1) to edit, redact, or otherwise change any Contributions; (2) to re-categorize any Contributions to place them in more appropriate locations on the Site; and (3) to pre-screen or delete any Contributions at any time and for any reason, without notice. We have no obligation to monitor your Contributions.</span></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><bdt className="else-block" /><bdt className="block-container if" data-type="if" id="a378120a-96b1-6fa3-279f-63d5b96341d3"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="review_option" data-type="statement" /><bdt data-type="body"><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>GUIDELINES FOR REVIEWS</span></strong></div></bdt></bdt></bdt></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We may provide you areas on the Site to leave reviews or ratings. When posting a review, you must comply with the following criteria: (1) you should have firsthand experience with the person/entity being reviewed; (2) your reviews should not contain offensive profanity, or abusive, racist, offensive, or hate language; (3) your reviews should not contain discriminatory references based on religion, race, gender, national origin, age, marital status, sexual orientation, or disability; (4) your reviews should not contain references to illegal activity; (5) you should not be affiliated with competitors if posting negative reviews; (6) you should not make any conclusions as to the legality of conduct; (7) you may not post any false or misleading statements; and (8) you may not organize a campaign encouraging others to post reviews, whether positive or negative. </span></div>
-                  </bdt>
-                </bdt>
-              </bdt>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We may accept,
-                    reject, or remove reviews in our sole discretion. We have absolutely no
-                    obligation to screen reviews or to delete reviews, even if anyone considers
-                    reviews objectionable or inaccurate. Reviews are not endorsed by us, and do not necessarily represent our
-                    opinions or the views of any of our affiliates or partners. We do not assume liability for any review or
-                    for any claims, liabilities, or losses resulting from any review. By posting a
-                        review, you</span><span style={{ lineHeight: '115%' }}> </span><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>hereby grant to us a perpetual,
-                      non-exclusive, worldwide, royalty-free, fully-paid, assignable, and
-                      sublicensable right and license to reproduce, modify, translate, transmit by
-                        any means, display, perform, and/or distribute all content relating to reviews.</span></span>
-                    </div>
-                  </bdt>
-                </bdt>
-              </bdt>
-            </div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt>
-              </bdt>
-              <bdt className="block-container if" data-type="if" id="c954892f-02b9-c743-d1e8-faf0d59a4b70">
-                <bdt data-type="conditional-block">
-                  <bdt className="block-component" data-record-question-key="mobile_app_option" data-type="statement" />
-                </bdt>
-                <bdt className="block-container if" data-type="if" id="e9981d4e-3a93-85dd-654b-7ecdf4bfe7d2">
-                  <bdt data-type="conditional-block">
-                    <bdt className="block-component" data-record-question-key="socialnetwork_link_option" data-type="statement" />
-                    <bdt data-type="body">
-                      <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>SOCIAL MEDIA</span></strong></div>
-                    </bdt>
-                  </bdt>
-                </bdt>
-              </bdt></div>
-            <div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>As part of the
-            functionality of the Site, you may link your account with online accounts you
-                      have with third-party service providers (each such account, a “Third-Party Account”) by either: (1) providing your Third-Party Account login information through the Site; or (2) allowing us to access your Third-Party Account, as is permitted under the applicable terms and conditions that govern your use of each Third-Party Account. You represent and warrant that you are entitled to disclose your Third-Party Account login information to us and/or grant us access to your Third-Party Account, without breach by you of any of the terms and conditions that govern your use of the applicable Third-Party Account, and without obligating us to pay any fees or making us subject to any usage limitations imposed by the third-party service provider of the Third-Party Account. By granting us access to any Third-Party Accounts, you understand that (1) we may access, make available, and store (if applicable) any content that you have provided to and stored in your Third-Party Account (the “Social Network Content”) so that it is available on and through the Site via your account, including without limitation any friend lists and (2) we may submit to and receive from your Third-Party Account additional information to the extent you are notified when you link your account with the Third-Party Account. Depending on the Third-Party Accounts you choose and subject to the privacy settings that you have set in such Third-Party Accounts, personally identifiable information that you post to your Third-Party Accounts may be available on and through your account on the Site. Please note that if a Third-Party Account or associated service becomes unavailable or our access to such Third-Party Account is terminated by the third-party service provider, then Social Network Content may no longer be available on and through the Site. You will have the ability to disable the connection between your account on the Site and your Third-Party Accounts at any time. PLEASE NOTE THAT YOUR RELATIONSHIP WITH THE THIRD-PARTY SERVICE PROVIDERS ASSOCIATED WITH YOUR THIRD-PARTY ACCOUNTS IS GOVERNED SOLELY BY YOUR AGREEMENT(S) WITH SUCH THIRD-PARTY SERVICE PROVIDERS. We make no effort to review any Social Network Content for any purpose, including but not limited to, for accuracy, legality, or non-infringement, and we are not responsible for any Social Network Content. You acknowledge and agree that we may access your email address book associated with a Third-Party Account and your contacts list stored on your mobile device or tablet computer solely for purposes of identifying and informing you of those contacts who have also registered to use the Site. You can deactivate the connection between the Site and your Third-Party Account by contacting us using the contact information below or through your account settings (if applicable). We will attempt to delete any information stored on our servers that was obtained through such Third-Party Account, except the username and profile picture that become associated with your account.</span></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><bdt className="block-container if" data-type="if"><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt></bdt><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_wfq2hvrw11j4" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>SUBMISSIONS</span></strong></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>You acknowledge and agree that any questions, comments, suggestions, ideas, feedback, or other information regarding the Site ("Submissions") provided by you to us are non-confidential and shall become our sole property. We shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use and dissemination of these Submissions for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you. You hereby waive all moral rights to any such Submissions, and you hereby warrant that any such Submissions are original with you or that you have the right to submit such Submissions. You agree there shall be no recourse against us for any alleged or actual infringement or misappropriation of any proprietary right in your Submissions.</span></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ lineHeight: 1 }}><bdt className="block-container if" data-type="if" id="36ce5a69-4560-4947-dc72-46e53e2d562a"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="3rd_party_option" data-type="statement" /> <bdt data-type="body"><div className="MsoNormal" data-custom-class="heading_1" style={{ textAlign: 'left', lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>THIRD-PARTY
-                          WEBSITES AND CONTENT</span></strong></div></bdt></bdt></bdt></div><div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ textAlign: 'left', lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>The Site may contain (or you may be sent via the Site) links to other websites ("Third-Party Websites") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ("Third-Party Content"). Such Third-Party Websites and Third-Party Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Site or any Third-Party Content posted on, available through, or installed from the Site, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the Third-Party Websites or the Third-Party Content. Inclusion of, linking to, or permitting the use or installation of any Third-Party Websites or any Third-Party Content does not imply approval or endorsement thereof by us. If you decide to leave the Site and access the Third-Party Websites or to use or install any Third-Party Content, you do so at your own risk, and you should be aware these Terms of Use no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Site or relating to any applications you use or install from the Site. Any purchases you make through Third-Party Websites will be through other websites and from other companies, and we take no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party. You agree and acknowledge that we do not endorse the products or services offered on Third-Party Websites and you shall hold us harmless from any harm caused by your purchase of such products or services. Additionally, you shall hold us harmless from any losses sustained by you or harm caused to you relating to or resulting in any way from any Third-Party Content or any contact with Third-Party Websites.</span></div></bdt></bdt></bdt></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" style={{ lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt></bdt><bdt className="block-container if" data-type="if" id="14038561-dad7-be9d-370f-f8aa487b2570"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="advertiser_option" data-type="statement"><bdt className="block-component" /></bdt></bdt></bdt></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '115%' }}><div className="MsoNormal" data-custom-class="heading_1" style={{ textAlign: 'left', lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>U.S. GOVERNMENT RIGHTS</span></strong></div></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ textAlign: 'justify', lineHeight: '115%' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)', backgroundImage: 'initial', backgroundPosition: 'initial', backgroundSize: 'initial', backgroundRepeat: 'initial', backgroundAttachment: 'initial', backgroundOrigin: 'initial', backgroundClip: 'initial' }}>Our services are “commercial items” as defined in Federal
-              Acquisition Regulation (“FAR”) 2.101. If our services are acquired by or on
-              behalf of any agency not within the Department of Defense (“DOD”), our services
-              are subject to the terms of these Terms of Use in accordance with FAR 12.212
-              (for computer software) and FAR 12.211 (for technical data). If our services are acquired by or on
-              behalf of any agency within the Department of Defense, our services are subject
-              to the terms of these Terms of Use in accordance with Defense Federal
-                  Acquisition Regulation (“DFARS”) 227.7202</span><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)', backgroundImage: 'initial', backgroundPosition: 'initial', backgroundSize: 'initial', backgroundRepeat: 'initial', backgroundAttachment: 'initial', backgroundOrigin: 'initial', backgroundClip: 'initial' }}>‑3. In addition, DFARS 252.227‑</span></span><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)', backgroundImage: 'initial', backgroundPosition: 'initial', backgroundSize: 'initial', backgroundRepeat: 'initial', backgroundAttachment: 'initial', backgroundOrigin: 'initial', backgroundClip: 'initial' }}>7015 applies to technical data acquired
-                by the DOD. This U.S. Government Rights clause is in lieu of, and supersedes,
-                any other FAR, DFARS, or other clause or provision that addresses government
-                  rights in computer software or technical data under these Terms of Use.</span></div><div className="MsoNormal" style={{ lineHeight: '1.5', textAlign: 'left' }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5', textAlign: 'left' }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5', textAlign: 'left' }}><span style={{ fontSize: '11.0pt', lineHeight: '115%', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><bdt className="block-container if" data-type="if" id="14038561-dad7-be9d-370f-f8aa487b2570"><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt></bdt></span></div></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_wj13r09u8u3u" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>SITE MANAGEMENT</span></strong></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We reserve the
-            right, but not the obligation, to: (1) monitor the Site for violations of
-            these Terms of Use; (2) take appropriate legal action against anyone who, in
-            our sole discretion, violates the law or these Terms of Use, including without
-            limitation, reporting such user to law enforcement authorities; (3) in our sole
-            discretion and without limitation, refuse, restrict access to, limit the
-            availability of, or disable (to the extent technologically feasible) any of
-            your Contributions or any portion thereof; (4) in our sole discretion and
-            without limitation, notice, or liability, to remove from the Site or otherwise
-            disable all files and content that are excessive in size or are in any way
-            burdensome to our systems; and (5) otherwise manage the Site in a manner
-            designed to protect our rights and property and to facilitate the proper
-                functioning of the Site.</span></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><a name="_jugvcvcw0oj9" /></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="privacy_policy_option" data-type="statement" /> <bdt data-type="body"><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>PRIVACY POLICY</span></strong></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt data-type="body"><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We care about data privacy and security. Please review our Privacy Policy: <strong><bdt className="block-container question question-in-editor" data-id="d10c7fd7-0685-12ac-c717-cbc45ff916d1" data-type="question"><a href="https://foundik.com/privacy" target="_blank" data-custom-class="link">https://foundik.com/privacy</a></bdt></strong>. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in <bdt className="block-component" /><bdt className="question">Estonia</bdt><bdt className="statement-end-if-in-editor" />. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="block-component" /><bdt className="question">Estonia</bdt><bdt className="statement-end-if-in-editor" /></span>, then through your continued use of the Site,</span><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}> </span><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>you are transferring your data to <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="block-component" /><bdt className="question">Estonia</bdt><bdt className="statement-end-if-in-editor" /></span>, and you agree to have your data transferred to and processed in <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="block-component" /><bdt className="question">Estonia</bdt><bdt className="statement-end-if-in-editor" /></span>. <bdt className="block-component" /><bdt className="block-container if" data-type="if" id="547bb7bb-ecf2-84b9-1cbb-a861dc3e14e7"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_u13_option" data-type="statement"><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="statement-end-if-in-editor" /></span></bdt></bdt></bdt></span></div></bdt></bdt></bdt></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><bdt className="block-container if" data-type="if"><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt><bdt className="block-container if" data-type="if" id="7371467a-f2b5-2aff-cd0f-3379e970551e"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="privacy_policy_followup" data-type="statement" style={{ fontSize: '14.6667px' }}><bdt className="block-component" /></bdt></bdt><bdt className="block-container if" data-type="if" id="923fc4bc-b171-82ba-b6eb-0a13c12d1b6b"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="copyright_agent_option" data-type="statement" /><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }}><bdt className="block-component" /><bdt className="block-component" /></span></bdt></bdt></bdt></bdt></bdt></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>COPYRIGHT INFRINGEMENTS</span></strong></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We respect the intellectual property rights of others. If you believe that any material available on or through the Site infringes upon any copyright you own or control, please immediately notify us using the contact information provided below (a “Notification”). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Site infringes your copyright, you should consider first contacting an attorney.</span></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><bdt className="block-container if" data-type="if" id="95e88984-ac54-be9d-35de-f10fd010af14"><bdt className="statement-end-if-in-editor" data-type="close"><span style={{ fontSize: '15px' }} /></bdt></bdt><bdt className="block-component" /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_k3mndam4w6w1" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>TERM AND
-                  TERMINATION</span></strong></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>These Terms of Use shall remain in full force and effect while you use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE <bdt className="block-container if" data-type="if" id="a6e121c2-36b4-5066-bf9f-a0a33512e768"><bdt data-type="conditional-block"><bdt className="block-component" data-record-question-key="user_account_option" data-type="statement" /></bdt></bdt><bdt className="block-container if" data-type="if" id="a6e121c2-36b4-5066-bf9f-a0a33512e768"><bdt data-type="conditional-block"><bdt data-type="body">YOUR</bdt></bdt></bdt></span><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><bdt className="block-container if" data-type="if" id="a6e121c2-36b4-5066-bf9f-a0a33512e768"><bdt data-type="conditional-block"><bdt data-type="body"> </bdt></bdt></bdt></span><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="a6e121c2-36b4-5066-bf9f-a0a33512e768"><bdt data-type="conditional-block"><bdt data-type="body">ACCOUNT AND </bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="a6e121c2-36b4-5066-bf9f-a0a33512e768"><bdt className="statement-end-if-in-editor" data-type="close" /></bdt>ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION. </span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}><span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>If we terminate
-            or suspend your account for any reason, you are prohibited from registering and
-            creating a new account under your name, a fake or borrowed name, or the name of
-            any third party, even if you may be acting on behalf of the third party. In
-            addition to terminating or suspending your account, we reserve the right to
-            take appropriate legal action, including without limitation pursuing civil,
-                  criminal, and injunctive redress.</span></span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_e2dep1hfgltt" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial' }}><span style={{ fontSize: '19px' }}>MODIFICATIONS AND INTERRUPTIONS</span></span></strong></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We reserve the right to change, modify, or remove the contents of the Site at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Site. We also reserve the right to modify or discontinue all or part of the Site without notice at any time. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Site.</span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: 1 }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>We cannot guarantee
-            the Site will be available at all times. We may experience hardware, software,
-            or other problems or need to perform maintenance related to the Site, resulting
-            in interruptions, delays, or errors. We
-            reserve the right to change, revise, update, suspend, discontinue, or otherwise
-            modify the Site at any time or for any reason without notice to you. You agree that we have no liability
-            whatsoever for any loss, damage, or inconvenience caused by your inability to
-            access or use the Site during any downtime or discontinuance of the Site. Nothing in these Terms of Use will be
-            construed to obligate us to maintain and support the Site or to supply any
-                corrections, updates, or releases in connection therewith.</span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_p6vbf8atcwhs" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial' }}><span style={{ fontSize: '19px' }}>GOVERNING LAW</span></span></strong></div><div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}><bdt className="block-component" /></span></div><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>These conditions are governed by and interpreted following the laws of <bdt className="block-component" /><bdt className="question">Estonia</bdt><bdt className="statement-end-if-in-editor" />, and the use of the United Nations Convention of Contracts for the International Sale of Goods is expressly excluded. If your habitual residence is in the EU, and you are a consumer, you additionally possess the protection provided to you by obligatory provisions of the law of your country of residence. <bdt className="question">Foundik OÜ</bdt> and yourself both agree to submit to the non-exclusive jurisdiction of the courts of <bdt className="question">Tallinn</bdt>, which means that you may make a claim to defend your consumer protection rights in regards to these Conditions of Use in <span style={{ fontSize: '15px' }}><bdt className="block-component" /><bdt className="question">Estonia</bdt><bdt className="statement-end-if-in-editor" /></span>, or in the EU country in which you reside.<bdt className="else-block" /></span></div></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><br /></div><div align="center" style={{ textAlign: 'left', lineHeight: '1.5' }}><div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div><div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><a name="_v5i5tjw62cyw" /><strong><span style={{ lineHeight: '115%', fontFamily: 'Arial', fontSize: '19px' }}>DISPUTE RESOLUTION</span></strong></div><div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div><div className="MsoNormal" style={{ lineHeight: '1.5' }}><bdt className="block-container if" data-type="if"><bdt data-type="conditional-block"><bdt className="block-component" /><bdt className="block-component" /></bdt></bdt></div></div>
-            <div className="MsoNormal" style={{ lineHeight: '1.5' }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}>The European Commission provides an online dispute resolution platform, which you can access here: <span style={{ lineHeight: '16.8667px', color: 'rgb(89, 89, 89)' }}><a data-custom-class="link" href="https://ec.europa.eu/consumers/odr" rel="noopener noreferrer" target="_blank">https://ec.europa.eu/consumers/odr</a></span>. If you would like to bring this subject to our attention, please contact us.</span>
-                      <bdt className="else-block"><span style={{ fontSize: '15px' }} /></bdt>
-                    </div>
-                  </bdt>
-                </bdt>
-              </bdt>
-            </div>
-            <div className="MsoNormal" style={{ lineHeight: '1.5' }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}>
-                      <bdt className="else-block" />
-                    </div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ fontSize: '19px' }}>CORRECTIONS</span></strong></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>There may be information on the Site that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice.</span></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ fontSize: '19px' }}>DISCLAIMER</span></strong></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.</span></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ fontSize: '19px' }}>LIMITATIONS OF LIABILITY</span></strong></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}>
-                        IN
-                      <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                          NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-                        <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                            <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                              <bdt data-type="conditional-block">
-                                <bdt className="block-component" data-record-question-key="limitations_liability_option" data-type="statement" />
-                              </bdt>
-                            </bdt>
-                            <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                              <bdt data-type="conditional-block">
-                                <bdt data-type="body">NOTWITHSTANDING</bdt>
-                              </bdt>
-                            </bdt>
-                          </span>
-                          <span style={{ fontSize: '11.0pt', lineHeight: '115%', fontFamily: 'Arial', color: '#595959', msoThemecolor: 'text1', msoThemetint: 166 }}>
-                            <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                              <bdt data-type="conditional-block">
-                                <bdt data-type="body"> </bdt>
-                              </bdt>
-                            </bdt>
-                          </span>
-                          <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                            <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                              <bdt data-type="conditional-block">
-                                <bdt data-type="body">
-                                  ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO
-                                <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                                    <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                                      <bdt data-type="conditional-block">
-                                        <bdt data-type="body">
-                                          <bdt className="block-container if" data-type="if" id="73189d93-ed3a-d597-3efc-15956fa8e04e">
-                                            <bdt data-type="conditional-block">
-                                              <bdt className="block-component" data-record-question-key="limitations_liability_option" data-type="statement" />
-                                            </bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
-                                    </bdt>
-                                  </span>
-                                  <bdt data-type="if">
-                                    <bdt data-type="conditional-block">
-                                      <bdt data-type="body">
-                                        <bdt data-type="if">
-                                          <bdt data-type="conditional-block">
-                                            <bdt data-type="body">THE AMOUNT PAID,</bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
-                                    </bdt>
-                                  </bdt>
-                                  <bdt data-type="if">
-                                    <bdt data-type="conditional-block">
-                                      <bdt data-type="body">
-                                        <bdt data-type="if">
-                                          <bdt data-type="conditional-block">
-                                            <bdt data-type="body"> </bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
-                                    </bdt>
-                                  </bdt>
-                                  <bdt data-type="if">
-                                    <bdt data-type="conditional-block">
-                                      <bdt data-type="body">
-                                        <bdt data-type="if">
-                                          <bdt data-type="conditional-block">
-                                            <bdt data-type="body">
-                                              IF ANY, BY YOU TO US
-                                            <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                                                <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                                                  <bdt data-type="conditional-block">
-                                                    <bdt data-type="body">
-                                                      <bdt className="block-container if" data-type="if" id="73189d93-ed3a-d597-3efc-15956fa8e04e">
-                                                        <bdt data-type="conditional-block">
-                                                          <bdt data-type="body">
-                                                            <bdt className="block-container if" data-type="if" id="19e172cb-4ccf-1904-7c06-4251800ba748">
-                                                              <bdt data-type="conditional-block">
-                                                                <bdt className="block-component" data-record-question-key="limilation_liability_time_option" data-type="statement" />
-                                                              </bdt>
-                                                            </bdt>
-                                                          </bdt>
-                                                        </bdt>
-                                                      </bdt>
-                                                    </bdt>
-                                                  </bdt>
-                                                </bdt>
-                                              </span>
-                                            DURING THE
-                                            <bdt className="question">SIX (6)</bdt>
-                                            MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING
-                                            <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                                                <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                                                  <bdt data-type="conditional-block">
-                                                    <bdt data-type="body">
-                                                      <bdt className="block-container if" data-type="if" id="73189d93-ed3a-d597-3efc-15956fa8e04e">
-                                                        <bdt data-type="conditional-block">
-                                                          <bdt data-type="body">
-                                                            <bdt className="block-container if" data-type="if" id="19e172cb-4ccf-1904-7c06-4251800ba748">
-                                                              <bdt className="statement-end-if-in-editor" data-type="close" />
-                                                            </bdt>
-                                                          </bdt>
-                                                        </bdt>
-                                                      </bdt>
-                                                    </bdt>
-                                                  </bdt>
-                                                </bdt>
-                                                <bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943">
-                                                  <bdt data-type="conditional-block">
-                                                    <bdt data-type="body">
-                                                      <bdt className="block-container if" data-type="if" id="73189d93-ed3a-d597-3efc-15956fa8e04e">
-                                                        <bdt data-type="conditional-block">
-                                                          <bdt className="block-component" data-record-question-key="limitations_liability_option" data-type="statement" />
-                                                        </bdt>
-                                                      </bdt>
-                                                    </bdt>
-                                                  </bdt>
-                                                </bdt></span>
-                                            . <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}><bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943"><bdt data-type="conditional-block"><bdt data-type="body">CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.</bdt></bdt></bdt><bdt className="block-container if" data-type="if" id="3c3071ce-c603-4812-b8ca-ac40b91b9943"><bdt className="statement-end-if-in-editor" data-type="close" /></bdt></span></bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
-                                    </bdt>
-                                  </bdt>
-                                </bdt>
-                              </bdt>
-                            </bdt>
-                          </span>
-                        </span>
-                      </span>
-                    </div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ fontSize: '19px' }}>INDEMNIFICATION</span></strong></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}>
-                        You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys’ fees and expenses, made by any third party due to or arising out of:
-                      <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                          <bdt className="block-container if" data-type="if" id="475fffa5-05ca-def8-ac88-f426b238903c">
-                            <bdt data-type="conditional-block">
-                              <bdt className="block-component" data-record-question-key="user_post_content_option" data-type="statement" />
-                            </bdt>
-                          </bdt>
-                        </span>
-                        <bdt data-type="if">
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">(1) your Contributions;</bdt>
-                          </bdt>
-                        </bdt>
-                        <bdt data-type="if">
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body"> </bdt>
-                          </bdt>
-                        </bdt>
-                        <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                          <bdt className="block-container if" data-type="if" id="475fffa5-05ca-def8-ac88-f426b238903c">
-                            <bdt className="statement-end-if-in-editor" data-type="close" />
-                          </bdt>
-                        </span>
-                      (2) use of the Site; (3) breach of these Terms of Use; (4) any breach of your representations and warranties set forth in these Terms of Use; (5) your violation of the rights of a third party, including but not limited to intellectual property rights; or (6) any overt harmful act toward any other user of the Site with whom you connected via the Site. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
-                    </span>
-                    </div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ fontSize: '19px' }}>USER DATA</span></strong></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>We will maintain certain data that you transmit to the Site for the purpose of managing the performance of the Site, as well as data relating to your use of the Site. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Site. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.</span></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '19px' }}><strong>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</strong></span></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>Visiting <span style={{ lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>the Site, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SITE. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.</span></span></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}>
-                      <bdt className="block-component" />
-                    </div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '19px' }}><strong>CALIFORNIA USERS AND RESIDENTS</strong></span></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>If any complaint with us is not satisfactorily resolved, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.</span></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}>
-                        <bdt className="statement-end-if-in-editor" />
-                      </span>
-                    </div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><strong><span style={{ fontSize: '19px' }}>MISCELLANEOUS</span></strong></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}>
-                        These Terms of Use and any policies or operating rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Use shall not operate as a waiver of such right or provision. These Terms of Use operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Use is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Use and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Use or use of the Site. You agree that these Terms of Use will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Use and the lack of signing by the parties hereto to execute these Terms of Use.
-                      <bdt className="block-component" />
-                      </span>
-                    </div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.5' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="heading_1" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '19px' }}><strong>CONTACT US</strong></span></div>
-                    <div className="MsoNormal" style={{ lineHeight: '1.1' }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><span style={{ fontSize: '15px' }}>In o<span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>rder to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:</span></span></div>
-                    <div className="MsoNormal" style={{ lineHeight: 1 }}><br /></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}>
-                        <span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                          <bdt className="question"><strong>Foundik OÜ</strong></bdt>
-                        </span>
-                      </span>
-                    </div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <span style={{ fontSize: '15px' }}><span style={{ fontSize: '15px', lineHeight: '115%', fontFamily: 'Arial', color: 'rgb(89, 89, 89)' }}>
-                        <strong>
-                          <span style={{ color: 'rgb(89, 89, 89)' }}>
-                            <bdt className="question">Pärnu mnt 20</bdt>
-                            <strong>
-                              <span style={{ color: 'rgb(89, 89, 89)' }}>
-                                <span style={{ fontSize: '15px' }}>
-                                  <bdt className="block-component">
-                                  </bdt></span></span></strong>
-                          </span></strong></span><strong>
-                        </strong>
-                      </span></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <strong>
-                        <span style={{ color: 'rgb(89, 89, 89)' }}>
-                          <span style={{ fontSize: '15px' }}>
-                            <bdt className="question">10141</bdt>
-                            <strong>
-                              <span style={{ color: 'rgb(89, 89, 89)' }}>
-                                <span style={{ fontSize: '15px' }}>
-                                  <bdt className="block-component" />
-                                </span>
-                              </span>
-                            </strong>
-                            <span style={{ fontSize: '15px' }}>
-                              <strong>
-                                <span style={{ color: 'rgb(89, 89, 89)' }}>
-                                  <bdt className="block-component" />
-                                  <bdt className="question"> Tallinn</bdt>
-                                  <bdt className="statement-end-if-in-editor" />
-                                </span>
-                              </strong>
-                              <strong>
-                                <span style={{ color: 'rgb(89, 89, 89)' }}>
-                                  <bdt className="block-component" />
-                                  <bdt className="block-component" />
-                                </span>
-                              </strong>
-                            </span>
-                          </span>
-                        </span></strong></div><strong>
-                    </strong><div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}><strong><bdt className="block-component"><strong><span style={{ fontSize: '15px' }} /></strong></bdt><strong><bdt className="question">Estonia</bdt></strong><bdt className="statement-end-if-in-editor"><strong><span style={{ fontSize: '15px' }}><bdt className="statement-end-if-in-editor"><strong /></bdt><bdt className="statement-end-if-in-editor"><strong /></bdt></span></strong></bdt></strong></div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <strong>
-                        <span style={{ fontSize: '15px' }}>
-                          Phone:
-                        <bdt className="question">+372 566 85499</bdt>
-                        </span>
-                      </strong>
-                    </div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <strong>
-                        <span style={{ fontSize: '15px' }}>
-                          <bdt className="block-component" />
-                        </span>
-                      </strong>
-                    </div>
-                    <div className="MsoNormal" data-custom-class="body_text" style={{ lineHeight: '1.5' }}>
-                      <bdt className="question"><strong><span style={{ fontSize: '15px' }}><a style={{ textDecoration: 'none'}}href="mailto:hello@foundik.com"><i>hello@foundik.com</i></a></span></strong></bdt>
-                    </div>
-                  </bdt></bdt></bdt></div>
+          <div>Last updated: 12.11.2020</div>
+          <div>This website <a href="http://www.foundik.com/">www.foundik.com</a> (Foundik Website) is administered and the services offered via this
+          website are provided by Foundik O&Uuml;, registry code 14776847, registered address P&auml;rnu mnt 20,
+          Tallinn, 10141, Estonia (Foundik).</div>
+
+          <div sx={{ my: '20px' }}>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+              sx={{ fontWeight: 'bold' }}
+            >
+              <div>1.</div>
+              <div>DEFINITIONS</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.</div>
+              <div>Unless expressly stated otherwise, the following terms shall have the following meaning:</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.1.</div>
+              <div>Commercial Register shall mean the Estonian Commercial Register (in Estonian &auml;riregister);</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.2.</div>
+              <div>Customer shall mean legal entity or other arrangement or natural person who uses, has used or intends to use a Service;</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.3.</div>
+              <div>Service Agreement shall mean an agreement between Foundik and the Customer for provision of Service(s) by Foundik.</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.4.</div>
+              <div>Service(s) shall mean all or any of the services offered or provided by Foundik;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.5.</div>
+              <div>Special Terms shall mean the terms and conditions for the provision and use of a particular. Service stated in sections 12 and 13 of these TOS;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.6.</div>
+              <div>Parties or Party shall mean the Customer or Foundik individually or both together;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>1.1.7.</div>
+              <div>TOS shall mean these terms of service as amended, novated, varied, extended, restated or supplemented from time to time.</div>
+            </Grid>
           </div>
+
+          <div sx={{ my: '20px' }}>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+              sx={{ fontWeight: 'bold' }}
+            >
+              <div>2.</div>
+              <div>GENERAL PROVISIONS</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.1.</div>
+              <div>Description and pricing of the Services provided by Foundik are displayed on this website or as otherwise agreed between the Parties;</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.2.</div>
+              <div>These TOS apply to all Services and comprise an integral part of the Service Agreement. When
+                applying for a Service and/or entering into a Service Agreement and/or using a Service, the Customer accepts the TOS.</div>
+            </Grid>
+
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.3.</div>
+              <div>In case conflicts arise between the provisions of different provisions or documents which are
+              part of Service Agreement, the following hierarchy of legal force of the provisions or documents
+              shall be observed (i.e. provisions of the document specified in clause 2.3.1 shall prevail over
+              provisions of the documents specified in clauses 2.3.2 and 2.3.3; provisions of the document
+                specified in clause 2.3.2 shall prevail over the provisions of the document specified in clause 2.3.3):</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.3.1.</div>
+              <div>Service Agreement;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.3.2.</div>
+              <div>Special Terms;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.3.3</div>
+              <div>TOS.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.4.</div>
+              <div>Should any of the provisions of the Service Agreement and/or TOS be or become void, the
+                validity of the rest of the provisions of the respective document will not be affected.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.5.</div>
+              <div>Foundik provides the Services during its working hours (Monday-Friday 09:00-17:00), except
+                on national holidays and shortened working days.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>2.6.</div>
+              <div>These TOS can be amended by Foundik unilaterally. The current version of the TOS is
+              published on Foundik Website. Foundik will notify the Customer of the amendments via the
+              Customer&rsquo;s e-mail address at least 14 calendar days in advance, except where the amended
+              terms are more favourable to the Customer. The Customer may refuse to accept the
+              amendments and terminate the Service Agreement by giving a termination notice to Foundik by
+              email during this 14 calendar days advance notice period. If the Customer has not submitted a
+              termination notice to Foundik during such period, the Customer is deemed to have accepted
+                the amended version of the TOS.</div>
+            </Grid>
+          </div>
+
+
+          <div sx={{ my: '20px' }}>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+              sx={{ fontWeight: 'bold' }}
+            >
+              <div>3.</div>
+              <div>PROVISION OF SERVICES</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.1.</div>
+              <div>Services can be ordered from (i) Foundik Website; or (ii) via an inquiry to e-mail address
+                hello@foundik.com. Services can be ordered separately or combined into packages, based on
+                description of Services on Foundik Website or in an offer by Foundik to the Customer&rsquo;s e-mail.</div>
+            </Grid>
+          </div>
+
+
+          <div>3.2.</div>
+          <div>Services and the prices of Services may vary on Foundik Website and in an offer by Foundik</div>
+          <div>made to the Customer. Please review the description and pricing of the Services carefully prior</div>
+          <div>to making the order and/or purchase.</div>
+          <div>3.3.</div>
+          <div>Services ordered via Foundik Website or e-mail inquiry can be paid for by credit card. The</div>
+          <div>Services are purchased by periodical prepayment subscription for which the following</div>
         </div>
-      </Container>
-    </section>
+        <div>
+          <div>cardholder data must be submitted to Foundik: credit card number, expiration date and CVV.</div>
+          <div>By providing such information to Foundik, the Customer authorises Foundik to charge such</div>
+          <div>credit card on the payment date indicated by Foundik. The Customer is obligated to keep</div>
+          <div>sufficient funds on the credit card for due payment for the Service(s).</div>
+          <div>3.4.</div>
+          <div>By ordering the Service(s) the Customer accepts paying for the Service(s) on a subscription</div>
+          <div>basis for an indefinite term until the Service Agreement has been terminated. The Customer&rsquo;s</div>
+          <div>credit card used to pay for the Service(s) will be charged on a recurring-basis once in every</div>
+          <div>calendar month following the initial payment for the Service(s).</div>
+          <div>3.5.</div>
+          <div>After selecting the Service, the price of the Service is displayed at the payment page. If due to</div>
+          <div>the nature of the Service the price cannot be displayed, then the initial price of the Service and</div>
+          <div>the bases for calculating the price of the Service are displayed.</div>
+          <div>3.6.</div>
+          <div>Services are provided on prepayment-basis, unless expressly agreed otherwise between the</div>
+          <div>Parties.</div>
+          <div>3.7.</div>
+          <div>Where value-added-tax (VAT) is payable in respect of the Service(s), the Customer shall pay</div>
+          <div>the VAT at the applicable rate.</div>
+          <div>3.8.</div>
+          <div>Service fees do not include out-of-pocket expenses such as state fees, notary fees, translation</div>
+          <div>fees, courier fees and other similar expenses, unless expressly agreed otherwise between the</div>
+          <div>Parties.</div>
+          <div>3.9.</div>
+          <div>Foundik reserves the right to unilaterally amend the fees and fee rates for the Service(s). The</div>
+          <div>Customer will be notified of the amendments via e-mail at least 30 calendar days in advance.</div>
+          <div>The Customer may refuse to accept new fees for the Service(s) and terminate the Service</div>
+          <div>Agreement by giving a respective termination notice to Foundik via e-mail during this 30</div>
+          <div>calendar days advance notice period. If the Customer has not submitted cancellation notice</div>
+          <div>during the period, the Customer is deemed to have accepted the amended fees for the</div>
+          <div>Service(s). Amended fees for the Service(s) will apply from the period indicated by Foundik.</div>
+          <div>3.10.</div>
+          <div>Invoices issued by Foundik shall be paid by the Customer within 7 calendar days from the date</div>
+          <div>of issue. If the Customer fails to make a payment by the due date, then a default interest 0.22%</div>
+          <div>(zero point twenty two per cent) per day on the overdue sum from the due date until full</div>
+          <div>payment of the overdue sum will be charged. For any unpaid invoice, a compensation of debt</div>
+          <div>collection costs or payment of reminder fee up to 40 EUR will be levied. Upon receiving the</div>
+          <div>payment from the Customer Foundik shall first settle default interest, then additional applicable</div>
+          <div>fees and then the fee for the Service(s).</div>
+          <div>3.11.</div>
+          <div>The Service Agreement is deemed concluded from payment for the Service by the Customer,</div>
+          <div>unless expressly agreed otherwise in writing between the Parties. Conclusion of the Service</div>
+          <div>Agreement is confirmed by Foundik by sending a respective confirmation of the order to the</div>
+          <div>Customer.</div>
+          <div>3.12.</div>
+          <div>In case the Service Agreement is concluded with a Customer which is a company which has</div>
+          <div>not yet been registered, then the company is deemed party to the Service Agreement and the</div>
+          <div>rights and obligations arising from the Service Agreement shall be binding to the company from</div>
+          <div>the moment the company is duly registered in the Estonian commercial register. The Customer</div>
+          <div>undertakes to notify Foundik via email or otherwise in writing within 5 working days upon the</div>
+          <div>company has been registered with the Estonian commercial register.</div>
+          <div>3.13.</div>
+          <div>Provision of the Services is subject to payment for the Services by the Customer and a</div>
+          <div>successfully completed Know-Your-Customer (KYC) procedure by the Customer in accordance</div>
+          <div>with these TOS.</div>
+          <div>3.14.</div>
+          <div>Due to national regulations regarding anti-money laundering and prevention of terrorism</div>
+          <div>financing (AML) and Foundik&rsquo;s risk policy Foundik does not provide Services to:</div>
+          <div>3.14.1. politically exposed persons (<a href="https://1office.co/faq/">PEP</a> ), including family members and persons known to be close</div>
+          <div>associates with the PEP;</div>
+          <div>3.14.2. persons included in the international sanctions lists (<a href="https://sanctionsmap.eu/#/main">https://sanctionsmap.eu/#/main</a> );</div>
+          <div>3.14.3. Customers from FATF high-risk countries and other monitored jurisdictions</div>
+          <div>(<a href="http://www.fatf-gafi.org/countries/">http://www.fatf-gafi.org/countries/</a> ).</div>
+          <div>4.</div>
+          <div>REPRESENTATION AND WARRANTIES</div>
+          <div>4.1.</div>
+          <div>By ordering Services from Foundik, the Customer represents and warrants to Foundik that:</div>
+          <div>4.1.1. In case the Customer is a legal entity the Customer is duly incorporated and validly existing</div>
+          <div>under the laws of the Republic of Estonia;</div>
+          <div>4.1.2. the execution and performance of the Service Agreement does not and will not breach the</div>
+          <div>corporate documents (including articles of association) of the Customer or any agreement or</div>
+          <div>document or law or legal or administrative act our court order by which the Customer is bound;</div>
+        </div>
+        <div>
+          <div>4.1.3. no restructuring, reorganisation, liquidation, bankruptcy or execution proceedings, or</div>
+          <div>foreclosure is pending in relation to, or threatening the Customer or its assets, and the</div>
+          <div>Customer is not aware of any third person&rsquo;s or the Customer&rsquo;s own (by its board members,</div>
+          <div>shareholders or otherwise) intentions to perform such acts or any existing or threatening</div>
+          <div>circumstances which might cause restructuring, reorganisation, liquidation, bankruptcy or</div>
+          <div>execution proceedings or foreclosure of the Customer or its assets, including any decision</div>
+          <div>making such proceedings possible;</div>
+          <div>4.1.4. the Customer is not aware of any circumstances which might hinder proper performance of its</div>
+          <div>obligations arising from the Service Agreement;</div>
+          <div>4.1.5. the Customer and its representative(s) have all rights and powers to enter into the Service</div>
+          <div>Agreement and the related documents and assume the obligations under the Service</div>
+          <div>Agreement;</div>
+          <div>4.1.6. the beneficial owner(s) and the management board and supervisory board member(s) of the</div>
+          <div>Customer do not qualify to be persons referred to in clause 3.14 of this TOS.</div>
+          <div>4.2.</div>
+          <div>The representations and warranties set out in clause 4.1 are made at the time the Customer</div>
+          <div>orders Services from Foundik and at the time the Service Agreement takes effect and are</div>
+          <div>deemed to be repeated by the Customer on each other date until the Customer&rsquo;s obligations</div>
+          <div>under the Service Agreement and related documents have been fully, unconditionally,</div>
+          <div>irrevocably and finally discharged with reference to the facts and circumstances then existing.</div>
+          <div>4.3.</div>
+          <div>The Customer must inform Foundik in writing as soon as possible but no later than within 5</div>
+          <div>working days when it becomes aware of any of the representations or warranties set out in</div>
+          <div>clause 4.1 appearing to be incorrect or false.</div>
+          <div>4.4.</div>
+          <div>If any of the representations or warranties set out in clause 4.1 appear to be false or if the</div>
+          <div>Customer fails to perform or violates one or several of the Customer&rsquo;s obligations under the</div>
+          <div>Service Agreement the Customer agrees to compensate any resulting damage to Foundik</div>
+          <div>promptly and in full.</div>
+          <div>5.</div>
+          <div>THE CUSTOMER&rsquo;S RIGHTS AND OBLIGATIONS</div>
+          <div>5.1.</div>
+          <div>The Customer has the right to use ordered Services according to the Service description</div>
+          <div>displayed on Foundik website or in the offer made by Foundik and the Service Agreement.</div>
+          <div>5.2.</div>
+          <div>The Customer must pay fee(s) for the Service(s) based on the prices indicated on Foundik</div>
+          <div>Website or as separately agreed in writing with Foundik and on terms and conditions</div>
+          <div>prescribed in the Service Agreement.</div>
+          <div>5.3.</div>
+          <div>Upon using Services, the Customer undertakes to:</div>
+          <div>5.3.1. conduct its business in compliance with applicable laws, regulations and good moral and</div>
+          <div>practice;</div>
+          <div>5.3.2. cooperate with Foundik in all matters relating to the Services;</div>
+          <div>5.3.3. provide us with such information and documents we may reasonably require in order to provide</div>
+          <div>the Services, and ensure that such information is complete and accurate;</div>
+          <div>5.3.4. refrain from disrupting or damaging Foundik website, Foundik&rsquo;s software, intellectual property</div>
+          <div>or Services.</div>
+          <div>5.4.</div>
+          <div>The Customer may not assign the Service Agreement or resell Services to third parties, unless</div>
+          <div>otherwise agreed in writing between the Parties.</div>
+          <div>5.5.</div>
+          <div>The Customer shall provide its contact information (including but not limited to e-mail address,</div>
+          <div>phone number and contact address) to Foundik and shall immediately inform Foundik in case</div>
+          <div>the contact information changes. The Customer consents that Foundik may send all</div>
+          <div>notifications related to the Services to the contact information and all notifications are deemed</div>
+          <div>delivered to the Customer after 5 calendar days from the date of sending.</div>
+          <div>5.6.</div>
+          <div>The Customer shall indemnify Foundik in respect of all damages, costs, liabilities and expenses</div>
+          <div>(including legal fees) incurred by Foundik in connection with the Customer&rsquo;s breach of the</div>
+          <div>Service Agreement.</div>
+          <div>5.7.</div>
+          <div>Due to the requirements established by AML legislation, the Customer must fully comply with</div>
+          <div>Foundik&rsquo;s KYC requirements. Immediately after ordering the Services, the Customer shall</div>
+          <div>provide Foundik all requested information and copies of valid personal identification</div>
+          <div>document(s). Foundik may require further information or documents from the Customer for</div>
+          <div>fulfilling KYC requirements. The Customer shall provide KYC-related documents and</div>
+          <div>information to Foundik annually. Foundik assumes the correctness and completeness of the</div>
+          <div>information and documents provided by the Customer. Foundik will not provide the Services to</div>
+          <div>the Customer until Foundik has confirmed that the Customer is fully compliant with Foundik&rsquo;s</div>
+          <div>KYC requirements.</div>
+        </div>
+        <div>
+          <div>6.</div>
+          <div>FOUNDIK&rsquo;S RIGHTS AND OBLIGATIONS</div>
+          <div>6.1.</div>
+          <div>Foundik undertakes to offer and/or provide Services to the Customer in accordance with the</div>
+          <div>Service description, the TOS, the Service Agreement and applicable legislation concerning</div>
+          <div>Services. Upon providing Services Foundik shall rely on the standards and good practice</div>
+          <div>applicable to the Services.</div>
+          <div>6.2.</div>
+          <div>Foundik reserves the right not to offer and/or provide Services to a Customer who does not</div>
+          <div>comply with Foundik&rsquo;s AML risk assessment policy or on other grounds at Foundik&rsquo;s full</div>
+          <div>discretion.</div>
+          <div>6.3.</div>
+          <div>Foundik reserves the right to use sub-contractors to provide Services to the Customer.</div>
+          <div>6.4.</div>
+          <div>Foundik may temporarily suspend offering and/or providing Services without prior notification</div>
+          <div>and without any liability owed to the Customer, in case:</div>
+          <div>6.4.1. the Customer has any overdue obligations owed to Foundik; or</div>
+          <div>6.4.2. the Customer fails to submit any information or documents to Foundik which are required for</div>
+          <div>performing the Service Agreement; or</div>
+          <div>6.4.3. provision of Services is suspended due to events and/or circumstances which are beyond</div>
+          <div>control of Foundik.</div>
+          <div>7.</div>
+          <div>VALIDITY AND TERMINATION OF THE SERVICE AGREEMENT</div>
+          <div>7.1.</div>
+          <div>The Service Agreement shall take effect upon signing by both Parties and is valid until the</div>
+          <div>termination of the Service Agreement.</div>
+          <div>7.2.</div>
+          <div>The Service Agreement shall terminate once the Customer&rsquo;s obligations under the Service</div>
+          <div>Agreement and related documents have been fully, unconditionally, irrevocably and finally</div>
+          <div>discharged or pursuant to clause 2.6 of these TOS.</div>
+          <div>7.3.</div>
+          <div>The Parties may each terminate the Service Agreement unilaterally by cancelling the</div>
+          <div>subscription at least 1 calendar days prior to the date the Customer&rsquo;s credit card would be</div>
+          <div>charged for the Service(s).</div>
+          <div>7.4.</div>
+          <div>Foundik may terminate the Service Agreement at any time without a refund and without any</div>
+          <div>liability owed to the Customer in the following cases:</div>
+          <div>7.4.1. Foundik has not been able to provide Services in accordance with the Service description</div>
+          <div>within</div>
+          <div>3 calendar months from entering into the Service Agreement due to events or</div>
+          <div>circumstances in the control of the Customer;</div>
+          <div>7.4.2. the Customer has provided incomplete or incorrect information, or failed to provide information</div>
+          <div>or documents requested by Foundik for the performance of the Service Agreement;</div>
+          <div>7.4.3. the Customer fails to provide information and documents requested by Foundik for fulfilling</div>
+          <div>KYC requirements within 2 calendar months from entering into the Service Agreement or does</div>
+          <div>not review and update the KYC in accordance with the Service Agreement;</div>
+          <div>7.4.4. the status of the beneficial owner and/or the management board member of the Customer does</div>
+          <div>not comply with Foundik&rsquo;s AML risk assessment policy;</div>
+          <div>7.4.5. activities of the Customer would make Foundik unable to comply with the applicable legal</div>
+          <div>regulations;</div>
+          <div>7.4.6. the Customer fails to act in accordance with instructions given by Foundik for the performance</div>
+          <div>of the Service Agreement;</div>
+          <div>7.4.7. the Customer does not pay an invoice within 30 calendar days from the payment due date or</div>
+          <div>the Customer does not have sufficient funds on the credit card for payment of the Service(s) for</div>
+          <div>30 calendar days from the due date;</div>
+          <div>7.4.8. the Customer assigns the Service or transfers the benefits received in the course of provision</div>
+          <div>of the Service to a third party;</div>
+          <div>7.4.9. Foundik has a reasonable suspicion that the activity or inactivity of the Customer may damage</div>
+          <div>or has damaged reputation and/or goodwill of Foundik.</div>
+          <div>7.5.</div>
+          <div>Upon the termination of the Service Agreement the amounts paid to Foundik are not to be</div>
+          <div>returned or set off with the Customer.</div>
+          <div>7.6.</div>
+          <div>In case the Customer is a consumer, the 14-day right of withdrawal does not apply to the</div>
+          <div>Services due to the Services having individual characteristics and depend on the Customer&rsquo;s</div>
+          <div>specific needs and wishes.</div>
+          <div>8.</div>
+          <div>CONFIDENTIALITY</div>
+          <div>8.1.</div>
+          <div>During the validity of the Service Agreement, Foundik shall maintain the confidentiality of</div>
+          <div>Customer&rsquo;s production and business secrets as required under the applicable legislation.</div>
+        </div>
+        <div>
+          <div>8.2.</div>
+          <div>Foundik is not required to maintain confidentiality if the Customer has permitted Foundik to</div>
+          <div>disclose information. Permission is not required for disclosing information to third parties who</div>
+          <div>are involved by Foundik in relation to providing the Services or if the duty to disclose arises</div>
+          <div>from law (such as in case of notaries, translators, authorities).</div>
+          <div>8.3.</div>
+          <div>Foundik and the Customer undertake not to disclose to third parties any information which is</div>
+          <div>received from the other Party in relation to offering and/or providing Services or which should</div>
+          <div>be treated as confidential in nature (Confidential Information). Confidential Information may</div>
+          <div>only be used for performing duties under the Service Agreement.</div>
+          <div>8.4.</div>
+          <div>Information is not Confidential Information if it:</div>
+          <div>8.4.1. is or becomes generally available to the public or enters the public domain other than due to a</div>
+          <div>breach of the Service Agreement;</div>
+          <div>8.4.2. was lawfully and independently received from a third party without any obligation of</div>
+          <div>confidentiality at the time of receipt; or</div>
+          <div>8.4.3. is required to be disclosed by applicable law or a court of competent jurisdiction.</div>
+          <div>8.5.</div>
+          <div>Foundik may disclose Confidential Information to third parties without permission of the</div>
+          <div>Customer if the disclosure is necessary for providing the Service(s) ordered by the Customer,</div>
+          <div>provided that the third party having access to such Confidential Information will be bound by</div>
+          <div>confidentiality by an agreement or applicable law.</div>
+          <div>8.6.</div>
+          <div>Disclosure of Confidential Information to an unauthorised third party shall be immediately</div>
+          <div>notified via e-mail to the affected Party.</div>
+          <div>9.</div>
+          <div>LIMITATION OF LIABILITY</div>
+          <div>9.1.</div>
+          <div>Foundik will not be responsible for performing any obligations of the Customer arising from</div>
+          <div>legal regulations applicable to the Customer.</div>
+          <div>9.2.</div>
+          <div>Foundik will not be liable to the Customer for any loss, damage, charges, costs or expenses</div>
+          <div>arising from temporary suspension of the Services in accordance with the Service Agreement.</div>
+          <div>9.3.</div>
+          <div>Foundik will not be liable to the Customer for any loss, damage, charges, costs or expenses</div>
+          <div>arising from providing Services on the basis of incomplete or inaccurate information provided</div>
+          <div>by the Customer.</div>
+          <div>9.4.</div>
+          <div>Foundik will not be liable to the Customer if Foundik&rsquo;s failure to perform obligations under this</div>
+          <div>Service Agreement is caused by events or circumstances beyond the control of Foundik,</div>
+          <div>unless otherwise stipulated by applicable law.</div>
+          <div>9.5.</div>
+          <div>Foundik will not be liable to the Customer for any loss, damage, charges, costs or expenses</div>
+          <div>arising from termination of the Service Agreement in accordance with clause 7.4 of these TOS.</div>
+          <div>9.6.</div>
+          <div>Foundik is liable for any direct damage caused to the Customer if such damage is caused</div>
+          <div>intentionally or due to gross negligence.</div>
+          <div>9.7.</div>
+          <div>Foundik is not liable for any indirect damage (including loss of profit) caused to the Customer</div>
+          <div>due to breach of the Service Agreement.</div>
+          <div>9.8.</div>
+          <div>Foundik&rsquo;s total liability amount under the Service Agreement is limited to the amount of fees</div>
+          <div>paid by the Customer for the Service(s), unless otherwise provided in the Service Agreement.</div>
+          <div>9.9.</div>
+          <div>Foundik shall not be liable in case an event or circumstances caused by force majeure or other</div>
+          <div>faults and disturbances beyond the control of Foundik prevent the Customer from using the</div>
+          <div>Service(s).</div>
+          <div>9.10.</div>
+          <div>Foundik is not liable for unauthorised use of the user accounts of the Customer on Foundik</div>
+          <div>Website.</div>
+          <div>9.11.</div>
+          <div>Foundik is not liable for delays, disruptions or failures in the use of Foundik Website due to</div>
+          <div>maintenance and development works or due to the disruptions in third-party systems that affect</div>
+          <div>the use of Foundik Website.</div>
+          <div>10.</div>
+          <div>PLEDGE</div>
+          <div>10.1.</div>
+          <div>In addition to any of the remedies available to Foundik under applicable law, all funds and</div>
+          <div>property belonging to the Customer which will be or are in possession of or disposed of by</div>
+          <div>Foundik shall be regarded as security for all liabilities and obligations of the Customer to</div>
+          <div>Foundik arising from any Service Agreement until satisfaction of all such liabilities and</div>
+          <div>obligations.</div>
+          <div>10.2.</div>
+          <div>If the Customer has any overdue obligations owed to Foundik related to the Service</div>
+          <div>Agreement, as well as in any other case when Foundik has a claim against the Customer</div>
+          <div>arising from the Service Agreement, Foundik shall be entitled, without prior notification thereof</div>
+          <div>to the Customer, and at any time: (i) appropriate and apply all or any part of the pledged assets</div>
+        </div>
+        <div>
+          <div>against any or all obligations of the Customer under the Service Agreement to Foundik</div>
+          <div>(whether matured or subject to any demand); and (ii) sell all or any part of the pledged assets.</div>
+          <div>11.</div>
+          <div>GOVERNING LAW, JURISDICTION AND DISPUTE RESOLUTION</div>
+          <div>11.1. The offering and/or provision of Service(s) and the Service Agreement is governed by the laws</div>
+          <div>of the Republic of Estonia.</div>
+          <div>11.2. Any dispute, controversy or claim arising out of or in connection with the Service(s) and/or the</div>
+          <div>Service Agreement, or the breach, termination, invalidity or non-contractual dispute thereof</div>
+          <div>shall be finally settled by the Harju County Court as the court of first instance.</div>
+          <div>11.3. Should you have any suggestions or complaints arising from the Service Agreement, please</div>
+          <div>submit it to the e-mail address: hello@foundik.com. Foundik shall respond to the complaint by</div>
+          <div>e-mail within 14 calendar days after receipt of the complaint, unless Foundik indicates that due</div>
+          <div>to the complexity of the matter responding may take longer.</div>
+          <div>SPECIAL TERMS</div>
+          <div>12.</div>
+          <div>SPECIAL TERMS OF VIRTUAL OFFICE SERVICE</div>
+          <div>12.1.</div>
+          <div>Description of the virtual office service can be found from Foundik Website or in the offer made</div>
+          <div>to the Customer via e-mail. The virtual office service shall only be used for the purposes</div>
+          <div>described in the description of Services.</div>
+          <div>12.2.</div>
+          <div>The Customer is entitled to use the virtual office service and register the legal address and/or</div>
+          <div>the contact person in the Commercial Register after making payment for the virtual office</div>
+          <div>service and completing KYC process.</div>
+          <div>12.3.</div>
+          <div>Where the Customer registers the legal address or the contact person before completing KYC</div>
+          <div>process, Foundik shall not accept the mail and documents delivered to the Customer. In such</div>
+          <div>case, Foundik shall not be liable for any loss or damages occurred to the Customer due to not</div>
+          <div>receiving the mail.</div>
+          <div>12.4.</div>
+          <div>Foundik shall accept mail and documents on behalf of the Customer and provide the files to the</div>
+          <div>Customer via e-mail. Foundik is not obligated to keep copies of the mail and documents in its</div>
+          <div>server or otherwise.</div>
+          <div>12.5.</div>
+          <div>Virtual office service includes 90 calendar days physical storage of mail and documents of the</div>
+          <div>Customer. In case the Customer does not collect such mail and documents, the mail and</div>
+          <div>documents shall be destroyed. Foundik will not be liable to the Customer for any loss, damage,</div>
+          <div>charges, costs or expenses arising from destruction of the mail and documents in accordance</div>
+          <div>with this Service Agreement.</div>
+          <div>12.6.</div>
+          <div>Any claim from the Customer in relation to the mail delivery and postal secrecy must be</div>
+          <div>addressed directly to the national postal service provider or to an engaged courier service</div>
+          <div>provider.</div>
+          <div>12.7.</div>
+          <div>The Customer shall notify Foundik within</div>
+          <div>5 working days from concluding the Service</div>
+          <div>Agreement via e-mail the names and contact details of the persons who are authorised to pick</div>
+          <div>up the Customer&rsquo;s mail and documents and immediately notify Foundik of any amendments in</div>
+          <div>the list of such persons.</div>
+          <div>12.8.</div>
+          <div>Foundik reserves the right to change its address provided to the Customer in the course of</div>
+          <div>virtual office service. Foundik shall notify the Customer of such change via e-mail 60 calendar</div>
+          <div>days in advance.</div>
+          <div>12.9.</div>
+          <div>Upon the termination of the Service Agreement the Customer loses the right to use the legal</div>
+          <div>address and the contact person provided by Foundik from the date of the termination.</div>
+          <div>12.10.The Customer undertakes to change the legal address and/or contact person in the</div>
+          <div>Commercial Register and notify its business partners of the change of the address on the last</div>
+          <div>calendar day of the Service Agreement. If the Customer has not changed its legal address</div>
+          <div>and/or contact person in the Commercial Register within 30 calendar days from the date the</div>
+          <div>Service Agreement was terminated, Foundik shall submit an application to the Commercial</div>
+          <div>Register for deleting legal address and/or the contact person provided by Foundik from the</div>
+          <div>Commercial Register and may claim a contractual penalty from the Customer in the sum equal</div>
+          <div>to 1 month fee for the virtual office service. Payment of contractual penalty does not release the</div>
+          <div>Customer from obligation to change the legal address, contact person or directors service</div>
+          <div>address in the Commercial Register.</div>
+          <div>13.</div>
+          <div>SPECIAL TERMS OF ACCOUNTING SERVICE</div>
+        </div>
+        <div>
+          <div>13.1. Description of the accounting services can be found from Foundik Website or in the offer made</div>
+          <div>to the Customer via e-mail.</div>
+          <div>13.2. Foundik provides accounting services in accordance with applicable national laws, regulations,</div>
+          <div>generally recognised accounting principles and qualifications established for organising</div>
+          <div>accounting and financial reporting of a company.</div>
+          <div>13.3. The fee for accounting service is displayed on Foundik Website or in the offer made by Foundik</div>
+          <div>to the Customer. The period of the calculation of the fee for the accounting service is a</div>
+          <div>calendar month.</div>
+          <div>13.4. The Customer shall:</div>
+          <div>13.4.1. submit to Foundik by the 5th date of each calendar month digital copies of the accounting</div>
+          <div>source documents of the previous calendar month. In case the Customer does not submit the</div>
+          <div>documents by the specified term, Foundik submitting tax declarations and state reports with a</div>
+          <div>delay or not submitting them by the term provided by law would not be deemed a breach of the</div>
+          <div>Service Agreement;</div>
+          <div>13.4.2. ensure that submitted documents and information are true, correct, complete and correspond</div>
+          <div>to the Customer&rsquo;s stated economic activity. If the accounting source documents do not</div>
+          <div>correspond to the Customer&rsquo;s economic activity or if the connection of transaction documents</div>
+          <div>to the Customer&rsquo;s economic activity is unclear, the Customer undertakes to submit additional</div>
+          <div>information and documents to eliminate such ambiguity;</div>
+          <div>13.4.3. submit the accounting source documents in a language as required under the description of</div>
+          <div>the accounting service. In case Foundik incurs or will incur translation expenses due to the</div>
+          <div>Customer submitting the accounting source documents in another language, then the</div>
+          <div>Customer undertakes to fully compensate Foundik for such expenses;</div>
+          <div>13.4.4. store all accounting source documents related to the Customer&rsquo;s company according to the</div>
+          <div>procedures provided by applicable law;</div>
+          <div>13.4.5. notify Foundik in timely manner about all transactions triggering tax obligation;</div>
+          <div>13.4.6. authorise the accountant appointed by Foundik to electronically submit tax declarations and</div>
+          <div>state reports to all state authorities on behalf of the Customer.</div>
+          <div>13.5. The Customer&rsquo;s transactions shall be recorded in the accounting records based on the</div>
+          <div>documents submitted to Foundik by the Customer. Foundik has no obligation to verify the</div>
+          <div>correctness of documents provided by the Customer.</div>
+          <div>13.6. Foundik has the right to refuse to accept or perform accounting operations on basis of</div>
+          <div>accounting source documents which in the opinion of Foundik may violate applicable tax laws</div>
+          <div>and cause Foundik to be liable for accepting or performing such accounting operations.</div>
+          <div>13.7. Upon termination of the Service Agreement Foundik shall send the accounting reports to the</div>
+          <div>Customer in electronic form by e-mail. Foundik shall not store accounting reports and copies of</div>
+          <div>documents after the termination of the Service Agreement.</div>
+          <div>Disclaimer: &ldquo;Foundik is the owner of this Foundik Website, holding the copyright for the content on</div>
+          <div>Foundik Website, unless stated otherwise. Use of the content on Foundik Website in any way is</div>
+          <div>allowed only upon a written consent by Foundik. When consent is given, a link to every content copy</div>
+          <div>of this Foundik Website must be added.</div>
+          <div>Foundik does not claim the content on Foundik Website or the content of referred webpages to be</div>
+          <div>exact or complete. Foundik is not liable for any mistakes, deficiencies in such information nor for</div>
+          <div>availability of such information.&rdquo;</div>
+          <div>The information contained on Foundik Website is for general information purposes and does not refer</div>
+          <div>to the particular situation of an individual or a legal entity. It does not constitute any legal or fiscal</div>
+          <div>advice. These contents cannot replace individual advice by experts in concrete individual cases. No</div>
+          <div>one should act on the basis of this information without appropriate professional advice and without</div>
+          <div>thoroughly examining the relevant situation. Foundik accepts no responsibility for decisions taken by</div>
+          <div>the user on the basis of the aforementioned information.</div>
+          <div>Despite taking every care when selecting the information published on this Foundik Website, we</div>
+          <div>accept no liability if it is not accurate, up-to-date and complete. Foundik reserves the right to change,</div>
+          <div>amend, delete or update the information, products or services published on this Foundik Website at</div>
+          <div>any time without special notification.</div>
+        </div>
+        <div>
+          <div>In particular, the information published on this Foundik Website does not constitute a binding offer of</div>
+          <div>agreement on our part.</div>
+          <div>Foundik accepts no responsibility whatsoever for the content of websites referred to on this Foundik</div>
+          <div>Website and set up by third parties. Only the provider thereof shall be liable for illegal, incorrect or</div>
+          <div>incomplete contents and for any damages arising from the use or non-use of the information</div>
+          <div>contained on web pages linked to this Foundik Website.</div>
+        </div>
+      </Container >
+    </section >
   )
 }
