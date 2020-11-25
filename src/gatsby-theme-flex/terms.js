@@ -205,124 +205,265 @@ export const Terms = () => {
             >
               <div>3.1.</div>
               <div>Services can be ordered from (i) Foundik Website; or (ii) via an inquiry to e-mail address
-                hello@foundik.com. Services can be ordered separately or combined into packages, based on
+              hello@foundik.com. Services can be ordered separately or combined into packages, based on
                 description of Services on Foundik Website or in an offer by Foundik to the Customer&rsquo;s e-mail.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.2.</div>
+              <div>Services and the prices of Services may vary on Foundik Website and in an offer by Foundik
+              made to the Customer. Please review the description and pricing of the Services carefully prior
+                to making the order and/or purchase.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.3.</div>
+              <div>Services ordered via Foundik Website or e-mail inquiry can be paid for by credit card. The
+              Services are purchased by periodical prepayment subscription for which the following
+              cardholder data must be submitted to Foundik: credit card number, expiration date and CVV.
+              By providing such information to Foundik, the Customer authorises Foundik to charge such
+              credit card on the payment date indicated by Foundik. The Customer is obligated to keep
+              sufficient funds on the credit card for due payment for the Service(s).</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.4.</div>
+              <div>By ordering the Service(s) the Customer accepts paying for the Service(s) on a subscription
+              basis for an indefinite term until the Service Agreement has been terminated. The Customer&rsquo;s
+              credit card used to pay for the Service(s) will be charged on a recurring-basis once in every
+              calendar month following the initial payment for the Service(s).</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.5.</div>
+              <div>After selecting the Service, the price of the Service is displayed at the payment page. If due to
+              the nature of the Service the price cannot be displayed, then the initial price of the Service and
+                the bases for calculating the price of the Service are displayed.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.6.</div>
+              <div>Services are provided on prepayment-basis, unless expressly agreed otherwise between the Parties.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.7.</div>
+              <div>Where value-added-tax (VAT) is payable in respect of the Service(s), the Customer shall pay
+                the VAT at the applicable rate.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.8.</div>
+              <div>Service fees do not include out-of-pocket expenses such as state fees, notary fees, translation
+              fees, courier fees and other similar expenses, unless expressly agreed otherwise between the
+                Parties.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.9.</div>
+              <div>Foundik reserves the right to unilaterally amend the fees and fee rates for the Service(s). The
+              Customer will be notified of the amendments via e-mail at least 30 calendar days in advance.
+              The Customer may refuse to accept new fees for the Service(s) and terminate the Service
+              Agreement by giving a respective termination notice to Foundik via e-mail during this 30
+              calendar days advance notice period. If the Customer has not submitted cancellation notice
+              during the period, the Customer is deemed to have accepted the amended fees for the
+                Service(s). Amended fees for the Service(s) will apply from the period indicated by Foundik.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.10.</div>
+              <div>Invoices issued by Foundik shall be paid by the Customer within 7 calendar days from the date
+              of issue. If the Customer fails to make a payment by the due date, then a default interest 0.22%
+              (zero point twenty two per cent) per day on the overdue sum from the due date until full
+              payment of the overdue sum will be charged. For any unpaid invoice, a compensation of debt
+              collection costs or payment of reminder fee up to 40 EUR will be levied. Upon receiving the
+              payment from the Customer Foundik shall first settle default interest, then additional applicable
+                fees and then the fee for the Service(s).</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.11.</div>
+              <div>The Service Agreement is deemed concluded from payment for the Service by the Customer,
+              unless expressly agreed otherwise in writing between the Parties. Conclusion of the Service
+              Agreement is confirmed by Foundik by sending a respective confirmation of the order to the
+                Customer.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.12.</div>
+              <div>In case the Service Agreement is concluded with a Customer which is a company which has
+              not yet been registered, then the company is deemed party to the Service Agreement and the
+              rights and obligations arising from the Service Agreement shall be binding to the company from
+              the moment the company is duly registered in the Estonian commercial register. The Customer
+              undertakes to notify Foundik via email or otherwise in writing within 5 working days upon the
+                company has been registered with the Estonian commercial register.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.13.</div>
+              <div>Provision of the Services is subject to payment for the Services by the Customer and a
+              successfully completed Know-Your-Customer (KYC) procedure by the Customer in accordance
+              with these TOS.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.14.</div>
+              <div>Due to national regulations regarding anti-money laundering and prevention of terrorism
+              financing (AML) and Foundik&rsquo;s risk policy Foundik does not provide Services to:</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.14.1.</div>
+              <div>politically exposed persons (<a href="https://1office.co/faq/">PEP</a> ), including family members and persons known to be close
+              associates with the PEP;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.14.2.</div>
+              <div>persons included in the international sanctions lists (<a href="https://sanctionsmap.eu/#/main">https://sanctionsmap.eu/#/main</a> );</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>3.14.3.</div>
+              <div>Customers from FATF high-risk countries and other monitored jurisdictions
+                (<a href="http://www.fatf-gafi.org/countries/">http://www.fatf-gafi.org/countries/</a> ).</div>
             </Grid>
           </div>
 
+          <div sx={{ my: '20px' }}>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+              sx={{ fontWeight: 'bold' }}
+            >
+              <div>4.</div>
+              <div>REPRESENTATION AND WARRANTIES</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.</div>
+              <div>By ordering Services from Foundik, the Customer represents and warrants to Foundik that:</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.1.</div>
+              <div>In case the Customer is a legal entity the Customer is duly incorporated and validly existing
+                under the laws of the Republic of Estonia;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.2.</div>
+              <div>The execution and performance of the Service Agreement does not and will not breach the
+              corporate documents (including articles of association) of the Customer or any agreement or
+                document or law or legal or administrative act our court order by which the Customer is bound;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.3.</div>
+              <div>No restructuring, reorganisation, liquidation, bankruptcy or execution proceedings, or
+              foreclosure is pending in relation to, or threatening the Customer or its assets, and the
+              Customer is not aware of any third person&rsquo;s or the Customer&rsquo;s own (by its board members,
+              shareholders or otherwise) intentions to perform such acts or any existing or threatening
+              circumstances which might cause restructuring, reorganisation, liquidation, bankruptcy or
+              execution proceedings or foreclosure of the Customer or its assets, including any decision
+                making such proceedings possible;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.4.</div>
+              <div>The Customer is not aware of any circumstances which might hinder proper performance of its
+                obligations arising from the Service Agreement;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.5.</div>
+              <div>The Customer and its representative(s) have all rights and powers to enter into the Service
+                Agreement and the related documents and assume the obligations under the Service Agreement;</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.1.6.</div>
+              <div>the beneficial owner(s) and the management board and supervisory board member(s) of the
+                Customer do not qualify to be persons referred to in clause 3.14 of this TOS.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.2.</div>
+              <div>The representations and warranties set out in clause 4.1 are made at the time the Customer
+              orders Services from Foundik and at the time the Service Agreement takes effect and are
+              deemed to be repeated by the Customer on each other date until the Customer&rsquo;s obligations
+              under the Service Agreement and related documents have been fully, unconditionally,
+                irrevocably and finally discharged with reference to the facts and circumstances then existing.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.3.</div>
+              <div>The Customer must inform Foundik in writing as soon as possible but no later than within 5
+              working days when it becomes aware of any of the representations or warranties set out in
+                clause 4.1 appearing to be incorrect or false.</div>
+            </Grid>
+            <Grid
+              gap={0}
+              columns={[1, ' 0.2fr 3.8fr']}
+            >
+              <div>4.4.</div>
+              <div>If any of the representations or warranties set out in clause 4.1 appear to be false or if the
+                Customer fails to perform or violates one or several of the Customer&rsquo;s obligations under the
+                Service Agreement the Customer agrees to compensate any resulting damage to Foundik
+                promptly and in full.</div>
+            </Grid>
+          </div>
 
-          <div>3.2.</div>
-          <div>Services and the prices of Services may vary on Foundik Website and in an offer by Foundik</div>
-          <div>made to the Customer. Please review the description and pricing of the Services carefully prior</div>
-          <div>to making the order and/or purchase.</div>
-          <div>3.3.</div>
-          <div>Services ordered via Foundik Website or e-mail inquiry can be paid for by credit card. The</div>
-          <div>Services are purchased by periodical prepayment subscription for which the following</div>
-        </div>
-        <div>
-          <div>cardholder data must be submitted to Foundik: credit card number, expiration date and CVV.</div>
-          <div>By providing such information to Foundik, the Customer authorises Foundik to charge such</div>
-          <div>credit card on the payment date indicated by Foundik. The Customer is obligated to keep</div>
-          <div>sufficient funds on the credit card for due payment for the Service(s).</div>
-          <div>3.4.</div>
-          <div>By ordering the Service(s) the Customer accepts paying for the Service(s) on a subscription</div>
-          <div>basis for an indefinite term until the Service Agreement has been terminated. The Customer&rsquo;s</div>
-          <div>credit card used to pay for the Service(s) will be charged on a recurring-basis once in every</div>
-          <div>calendar month following the initial payment for the Service(s).</div>
-          <div>3.5.</div>
-          <div>After selecting the Service, the price of the Service is displayed at the payment page. If due to</div>
-          <div>the nature of the Service the price cannot be displayed, then the initial price of the Service and</div>
-          <div>the bases for calculating the price of the Service are displayed.</div>
-          <div>3.6.</div>
-          <div>Services are provided on prepayment-basis, unless expressly agreed otherwise between the</div>
-          <div>Parties.</div>
-          <div>3.7.</div>
-          <div>Where value-added-tax (VAT) is payable in respect of the Service(s), the Customer shall pay</div>
-          <div>the VAT at the applicable rate.</div>
-          <div>3.8.</div>
-          <div>Service fees do not include out-of-pocket expenses such as state fees, notary fees, translation</div>
-          <div>fees, courier fees and other similar expenses, unless expressly agreed otherwise between the</div>
-          <div>Parties.</div>
-          <div>3.9.</div>
-          <div>Foundik reserves the right to unilaterally amend the fees and fee rates for the Service(s). The</div>
-          <div>Customer will be notified of the amendments via e-mail at least 30 calendar days in advance.</div>
-          <div>The Customer may refuse to accept new fees for the Service(s) and terminate the Service</div>
-          <div>Agreement by giving a respective termination notice to Foundik via e-mail during this 30</div>
-          <div>calendar days advance notice period. If the Customer has not submitted cancellation notice</div>
-          <div>during the period, the Customer is deemed to have accepted the amended fees for the</div>
-          <div>Service(s). Amended fees for the Service(s) will apply from the period indicated by Foundik.</div>
-          <div>3.10.</div>
-          <div>Invoices issued by Foundik shall be paid by the Customer within 7 calendar days from the date</div>
-          <div>of issue. If the Customer fails to make a payment by the due date, then a default interest 0.22%</div>
-          <div>(zero point twenty two per cent) per day on the overdue sum from the due date until full</div>
-          <div>payment of the overdue sum will be charged. For any unpaid invoice, a compensation of debt</div>
-          <div>collection costs or payment of reminder fee up to 40 EUR will be levied. Upon receiving the</div>
-          <div>payment from the Customer Foundik shall first settle default interest, then additional applicable</div>
-          <div>fees and then the fee for the Service(s).</div>
-          <div>3.11.</div>
-          <div>The Service Agreement is deemed concluded from payment for the Service by the Customer,</div>
-          <div>unless expressly agreed otherwise in writing between the Parties. Conclusion of the Service</div>
-          <div>Agreement is confirmed by Foundik by sending a respective confirmation of the order to the</div>
-          <div>Customer.</div>
-          <div>3.12.</div>
-          <div>In case the Service Agreement is concluded with a Customer which is a company which has</div>
-          <div>not yet been registered, then the company is deemed party to the Service Agreement and the</div>
-          <div>rights and obligations arising from the Service Agreement shall be binding to the company from</div>
-          <div>the moment the company is duly registered in the Estonian commercial register. The Customer</div>
-          <div>undertakes to notify Foundik via email or otherwise in writing within 5 working days upon the</div>
-          <div>company has been registered with the Estonian commercial register.</div>
-          <div>3.13.</div>
-          <div>Provision of the Services is subject to payment for the Services by the Customer and a</div>
-          <div>successfully completed Know-Your-Customer (KYC) procedure by the Customer in accordance</div>
-          <div>with these TOS.</div>
-          <div>3.14.</div>
-          <div>Due to national regulations regarding anti-money laundering and prevention of terrorism</div>
-          <div>financing (AML) and Foundik&rsquo;s risk policy Foundik does not provide Services to:</div>
-          <div>3.14.1. politically exposed persons (<a href="https://1office.co/faq/">PEP</a> ), including family members and persons known to be close</div>
-          <div>associates with the PEP;</div>
-          <div>3.14.2. persons included in the international sanctions lists (<a href="https://sanctionsmap.eu/#/main">https://sanctionsmap.eu/#/main</a> );</div>
-          <div>3.14.3. Customers from FATF high-risk countries and other monitored jurisdictions</div>
-          <div>(<a href="http://www.fatf-gafi.org/countries/">http://www.fatf-gafi.org/countries/</a> ).</div>
-          <div>4.</div>
-          <div>REPRESENTATION AND WARRANTIES</div>
-          <div>4.1.</div>
-          <div>By ordering Services from Foundik, the Customer represents and warrants to Foundik that:</div>
-          <div>4.1.1. In case the Customer is a legal entity the Customer is duly incorporated and validly existing</div>
-          <div>under the laws of the Republic of Estonia;</div>
-          <div>4.1.2. the execution and performance of the Service Agreement does not and will not breach the</div>
-          <div>corporate documents (including articles of association) of the Customer or any agreement or</div>
-          <div>document or law or legal or administrative act our court order by which the Customer is bound;</div>
-        </div>
-        <div>
-          <div>4.1.3. no restructuring, reorganisation, liquidation, bankruptcy or execution proceedings, or</div>
-          <div>foreclosure is pending in relation to, or threatening the Customer or its assets, and the</div>
-          <div>Customer is not aware of any third person&rsquo;s or the Customer&rsquo;s own (by its board members,</div>
-          <div>shareholders or otherwise) intentions to perform such acts or any existing or threatening</div>
-          <div>circumstances which might cause restructuring, reorganisation, liquidation, bankruptcy or</div>
-          <div>execution proceedings or foreclosure of the Customer or its assets, including any decision</div>
-          <div>making such proceedings possible;</div>
-          <div>4.1.4. the Customer is not aware of any circumstances which might hinder proper performance of its</div>
-          <div>obligations arising from the Service Agreement;</div>
-          <div>4.1.5. the Customer and its representative(s) have all rights and powers to enter into the Service</div>
-          <div>Agreement and the related documents and assume the obligations under the Service</div>
-          <div>Agreement;</div>
-          <div>4.1.6. the beneficial owner(s) and the management board and supervisory board member(s) of the</div>
-          <div>Customer do not qualify to be persons referred to in clause 3.14 of this TOS.</div>
-          <div>4.2.</div>
-          <div>The representations and warranties set out in clause 4.1 are made at the time the Customer</div>
-          <div>orders Services from Foundik and at the time the Service Agreement takes effect and are</div>
-          <div>deemed to be repeated by the Customer on each other date until the Customer&rsquo;s obligations</div>
-          <div>under the Service Agreement and related documents have been fully, unconditionally,</div>
-          <div>irrevocably and finally discharged with reference to the facts and circumstances then existing.</div>
-          <div>4.3.</div>
-          <div>The Customer must inform Foundik in writing as soon as possible but no later than within 5</div>
-          <div>working days when it becomes aware of any of the representations or warranties set out in</div>
-          <div>clause 4.1 appearing to be incorrect or false.</div>
-          <div>4.4.</div>
-          <div>If any of the representations or warranties set out in clause 4.1 appear to be false or if the</div>
-          <div>Customer fails to perform or violates one or several of the Customer&rsquo;s obligations under the</div>
-          <div>Service Agreement the Customer agrees to compensate any resulting damage to Foundik</div>
-          <div>promptly and in full.</div>
           <div>5.</div>
           <div>THE CUSTOMER&rsquo;S RIGHTS AND OBLIGATIONS</div>
           <div>5.1.</div>
